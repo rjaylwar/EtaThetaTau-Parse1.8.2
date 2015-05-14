@@ -62,7 +62,7 @@ public class LoginActivity extends Activity {
         formatter.setLenient(false);
 
 
-        String oldTime = "17.03.2015, 19:30";
+        String oldTime = "15.03.2016, 19:30";
         Date oldDate;
         try {
             oldDate = formatter.parse(oldTime);
@@ -72,7 +72,7 @@ public class LoginActivity extends Activity {
             // do your work...
             long endTime=System.currentTimeMillis();
 
-            diff = endTime-milliseconds;
+            diff = Math.abs(endTime-milliseconds);
 
             //Log.e("day", "miliday"+diff);
             long seconds = (long) (diff / 1000) % 60 ;
@@ -89,11 +89,11 @@ public class LoginActivity extends Activity {
         }
 
 
-        Long serverUptimeSeconds = (milliseconds - System.currentTimeMillis()) / 1000;
+        Long serverUptimeSeconds = Math.abs((milliseconds - System.currentTimeMillis()) / 1000);
 
         String serverUptimeText = String.format("%d days %d hours %d minutes %d seconds",
                 serverUptimeSeconds / 86400,
-                ( serverUptimeSeconds % 86400) / 3600 ,
+                (serverUptimeSeconds % 86400) / 3600 ,
                 ((serverUptimeSeconds % 86400) % 3600 ) / 60,
                 ((serverUptimeSeconds % 86400) % 3600 ) % 60
         );
@@ -212,7 +212,7 @@ public class LoginActivity extends Activity {
 
 
             Long serverUptimeSeconds =
-                    (millisUntilFinished - System.currentTimeMillis()) / 1000;
+                    Math.abs((millisUntilFinished - System.currentTimeMillis()) / 1000);
 
 
             String serverUptimeText =

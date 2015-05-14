@@ -107,7 +107,7 @@ public class TonightFragment extends Fragment {
                 drinksTextView.setText("DAY");
                 descriptionTextView.setText(hotdDescriptionString);
                 sweetBottom.setText("So Hot!");
-                saltyBottom.setText("So Sweaty");
+                saltyBottom.setText("So Sweaty!");
                 drinksBottom.setText("So Sweet!");
                 return false;
             }
