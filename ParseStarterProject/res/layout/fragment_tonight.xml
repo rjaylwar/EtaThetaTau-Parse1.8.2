@@ -180,7 +180,7 @@
                 android:padding="5sp"
                 android:textColor="#ffffffff"
                 android:textSize="18sp"
-                android:text="Loading... (tap the images to see the Hottie of the Day)"/>
+                android:text="Loading... (tap the images to see the Hottie of the Day!)"/>
 
         </ScrollView>
 
