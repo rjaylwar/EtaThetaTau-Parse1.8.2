@@ -7,6 +7,10 @@
     tools:context="com.rja.etaThetaTau.LoginActivity"
     android:background="@drawable/songfest_onstage_blur">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,19 +18,21 @@
 
     <TextView android:text="H\u0398T" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="145sp"
+        android:textSize="145dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:textColor="#ffffffff"/>
+        android:textColor="#ffffffff"
+        android:maxLines="1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="38sp"
+        android:textSize="34sp"
         android:textColor="#ffffffff"
         android:id="@+id/login_countdown_text_view"
-        android:text="00d:00h:00m:00s"
+        android:text="000d:00h:00m:00s"
         android:layout_gravity="center"
+        android:maxLines="1"
         />
 
     <TextView
@@ -34,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Eta Theta Tau Performance Countdown"
-        android:textSize="17sp"
+        android:textSize="16sp"
         android:layout_marginBottom="7dp"/>
 
 
@@ -59,4 +65,6 @@
         android:id="@+id/login_guest_button"/>
 
     </LinearLayout>
+
+    </ScrollView>
 </RelativeLayout>

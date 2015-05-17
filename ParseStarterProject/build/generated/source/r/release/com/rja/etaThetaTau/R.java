@@ -58,11 +58,11 @@ public final class R {
         public static final int switch_for_actionbar=0x7f070027;
         public static final int tonight_3splitBar=0x7f070016;
         public static final int tonight_3splitBar_bottom=0x7f07001c;
-        public static final int tonight_down_button=0x7f070015;
+        public static final int tonight_down_button=0x7f070014;
         public static final int tonight_eta_text_view=0x7f070020;
         public static final int tonight_image_view=0x7f07001a;
         public static final int tonight_text_view=0x7f070021;
-        public static final int tonight_title=0x7f070014;
+        public static final int tonight_title=0x7f070015;
         public static final int tonight_years_layout=0x7f07000b;
         public static final int viewpager=0x7f070006;
         public static final int webView=0x7f07000a;

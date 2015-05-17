@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/libs/Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.8.2-9bc20a094b72db7e984078bc7126466591db6e54.jar" />
+    </item>
+    <item
         jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="21.1.1"
@@ -9,18 +16,18 @@
         <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-42e179ebe89eea3e6dd73de0a2bddbb832180fc1.jar" />
     </item>
     <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/libs/ParseCrashReporting-1.8.2.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-46338b3008235b898232c0800b4717b3295abf22.jar" />
+        revision="22.0.0"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-b6d97f9cf95c3783d103fb1e8719e4a64ef9565d.jar" />
     </item>
     <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/classes.jar"
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-7367b996667fda9dfb50888c3612780687cffd77.jar" />
+        revision="22.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f8de176a3e27a3150122d48a823f5feeaad0c5d2.jar" />
     </item>
     <item
         jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/libs/ParseCrashReporting-1.8.2.jar"
@@ -30,11 +37,11 @@
         <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-b6d97f9cf95c3783d103fb1e8719e4a64ef9565d.jar" />
     </item>
     <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-d8d0cdb4685e340c5da7b64b029e5d46bac73f44.jar" />
+        revision="22.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-42e179ebe89eea3e6dd73de0a2bddbb832180fc1.jar" />
     </item>
     <item
         jar="/Users/rjaylward/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
@@ -44,11 +51,18 @@
         <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-3a28847b4492bf3ef948d20d762079dda83d773c.jar" />
     </item>
     <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/rjaylward/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-97f5002386f64e60712676235a205127ae7f8c49.jar" />
+        revision="22.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-3a28847b4492bf3ef948d20d762079dda83d773c.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-6c73ae9d876266e7d0b8e40341a5b6fecc963ab4.jar" />
     </item>
     <item
         jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/libs/Parse-1.8.2.jar"
@@ -56,6 +70,20 @@
         revision="21.1.1"
         sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
         <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.8.2-9bc20a094b72db7e984078bc7126466591db6e54.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-f93b23ffc869edf342a7cc25440c6955cdeaaee3.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-75b19f95793405bf808002e09d24bc6ac2746d3b.jar" />
     </item>
 
 </items>
