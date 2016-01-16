@@ -1,0 +1,106 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#083551">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:textColor="#ffffffff"
+            android:text="Script"
+            android:id="@+id/script_title"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#083551"
+            android:text="2015"
+            android:textSize="22sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/script_year_button"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+    </RelativeLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        android:background="#0C4E76"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha=".85"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:id="@+id/tonight_years_layout"
+        android:visibility="gone">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2012"
+            android:background="#b2000000"
+            android:id="@+id/script_2012_button"
+            android:textSize="45sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="2013"
+            android:background="#b2000000"
+            android:id="@+id/script_2013_button"
+            android:textSize="45sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="2014"
+            android:background="#b2000000"
+            android:id="@+id/script_2014_button"
+            android:textSize="45sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="2015"
+            android:background="#b2000000"
+            android:id="@+id/script_2015_button"
+            android:textSize="45sp"/>
+
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/Users/rjaylward/Google%20Drive/Android%20Studio/Eta%20Theta%20Tau%20-%20Parse%201.8.2/ParseStarterProject/res/layout/fragment_script.xml -->

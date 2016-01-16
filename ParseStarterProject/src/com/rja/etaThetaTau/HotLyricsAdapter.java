@@ -10,7 +10,7 @@ import com.parse.ParseQuery;
 import com.parse.ParseQueryAdapter;
 
 /**
- * Created by rjaylward on 3/7/15.
+ * Created by rjaylward on 3/7/15
  */
 public class HotLyricsAdapter extends ParseQueryAdapter<ParseObject> {
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Main" parent="AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/um_dark_blue</item>
+        <item name="colorPrimaryDark">@color/um_grey_blue</item>
+        <item name="colorAccent">@color/um_highlight_blue</item>
+
+        <!-- Trim color for UI elements like checkboxes -->
+        <item name="android:textColorSecondary">@color/light_grey</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+
+        <item name="android:alertDialogStyle">@style/Theme.AppCompat.Dialog.Alert</item>
+        <item name="android:textColor">@color/very_light_grey</item>
+
+    </style>
+
+    <style name="Theme.Main.TransparentStatus" parent="Theme.Main">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

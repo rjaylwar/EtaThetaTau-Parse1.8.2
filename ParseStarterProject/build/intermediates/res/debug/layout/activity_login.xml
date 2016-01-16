@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.rja.etaThetaTau.LoginActivity"
+    android:background="@drawable/songfest_onstage_blur">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView android:text="H\u0398T" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="145dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:maxLines="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:textColor="#ffffffff"
+        android:id="@+id/login_countdown_text_view"
+        android:text="000d:00h:00m:00s"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Eta Theta Tau Performance Countdown"
+        android:textSize="16sp"
+        android:layout_marginBottom="7dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password..."
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:background="#0000ffff"
+        android:id="@+id/login_edit_text"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:text="~  Enter As Guest  ~"
+        android:id="@+id/login_guest_button"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+<!-- From: file:/Users/rjaylward/Google%20Drive/Android%20Studio/Eta%20Theta%20Tau%20-%20Parse%201.8.2/ParseStarterProject/res/layout/activity_login.xml -->

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.rja.etaThetaTau.TabsActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_launcher"
+        android:title="Search"
+        android:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+
+</menu>
+<!-- From: file:/Users/rjaylward/Google%20Drive/Android%20Studio/Eta%20Theta%20Tau%20-%20Parse%201.8.2/ParseStarterProject/res/menu/menu_tabs.xml -->

@@ -12,7 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 /**
- * Created by rjaylward on 3/4/15.
+ * Created by rjaylward on 3/4/15
  */
 public class SongsArrayAdapter extends ArrayAdapter<String[]> {
     private final Activity context;

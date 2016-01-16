@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.rja.etaThetaTau.TonightFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#083551">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="#083551"
+            android:text="v"
+            android:textSize="24dp"
+            android:textColor="#ffffffff"
+            android:id="@+id/tonight_down_button"
+            android:onClick="dismissActivity"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="25dp"
+            android:textColor="#ffffffff"
+            android:text="Date:Place:Time"
+            android:id="@+id/tonight_title"/>
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/tonight_3splitBar"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#006168"
+            android:textColor="#ffffffff"
+            android:text="Sweet:Name"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/sweet_text_view"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#004055"
+            android:textColor="#ffffffff"
+            android:text="Salty:Name"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/salty_text_view"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#062B40"
+            android:textColor="#ffffffff"
+            android:text="Drinks:Name"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/drinks_text_view"
+            android:textSize="20dp"
+            />
+
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:animateLayoutChanges="true">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/tonight_image_view"
+            android:scaleType="fitXY"
+            android:layout_margin="8dp"
+            android:src="@drawable/geek_insta"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/hotd_image_view"
+            android:scaleType="fitXY"
+            android:layout_margin="8dp"
+            android:src="@drawable/default_hottie"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tonight_3splitBar_bottom"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#006168"
+                android:textColor="#ffffffff"
+                android:text="~ Sweet ~"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/sweetbottom_text_view"
+                android:textSize="20dp"
+                android:alpha="0"
+                />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#004055"
+                android:textColor="#ffffffff"
+                android:text="~ Salty ~"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/saltybottom_text_view"
+                android:textSize="20dp"
+                android:alpha="0"
+                />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#062B40"
+                android:textColor="#ffffffff"
+                android:text="~ Drinks ~"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/drinksbottom_text_view"
+                android:textSize="20dp"
+                android:alpha="0"
+                />
+
+        </LinearLayout>
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C4E76">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tonight_eta_text_view">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tonight_text_view"
+                android:padding="5sp"
+                android:textColor="#ffffffff"
+                android:textSize="17sp"
+                android:text="Loading... (tap the images to see the Hottie of the Day!)"/>
+
+        </ScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="\u21BB   eta theta tau   \u21BA"
+            android:textSize="24sp"
+            android:id="@+id/tonight_eta_text_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffffff"/>
+        </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/rjaylward/Google%20Drive/Android%20Studio/Eta%20Theta%20Tau%20-%20Parse%201.8.2/ParseStarterProject/res/layout/fragment_tonight.xml -->

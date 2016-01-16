@@ -4,11 +4,9 @@ import android.app.Application;
 import android.util.Log;
 
 import com.parse.Parse;
-import com.parse.ParseACL;
-import com.parse.ParseCrashReporting;
 import com.parse.ParseException;
+import com.parse.ParseInstallation;
 import com.parse.ParsePush;
-import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 public class ParseApplication extends Application {
@@ -18,7 +16,7 @@ public class ParseApplication extends Application {
     super.onCreate();
 
     // Initialize Crash Reporting.
-    ParseCrashReporting.enable(this);
+//    ParseCrashReporting.enable(this);
 
     // Enable Local Datastore.
     //Parse.enableLocalDatastore(this);
@@ -26,11 +24,7 @@ public class ParseApplication extends Application {
     // Add your initialization code here
     Parse.initialize(this, "vZKXFYYVYzIkptBQ4cgCHQo6abYAXS9ip7YDVhBo", "uC71mF9Bugtxll23PQRLOhLmOVzr7S9I0nYf8fV6");
 
-    ParseUser.enableAutomaticUser();
-    ParseACL defaultACL = new ParseACL();
-    // Optionally enable public read access.
-    // defaultACL.setPublicReadAccess(true);
-    ParseACL.setDefaultACL(defaultACL, true);
+      ParseInstallation.getCurrentInstallation().saveInBackground();
 
       ParsePush.subscribeInBackground("android", new SaveCallback() {
           @Override

@@ -14,4 +14,6 @@
     <string name="title_activity_lyrics_detail">Lyrics</string>
     <string name="title_activity_login">Eta Theta Tau</string>
 
+    <string name="play_icon">▶</string>
+
 </resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:text="title"
+        android:textColor="#ffffffff"
+        android:id="@+id/song_title"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="subtitle"
+        android:textColor="#ffffffff"
+        android:id="@+id/song_subtitle"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+
+</LinearLayout><!-- From: file:/Users/rjaylward/Google%20Drive/Android%20Studio/Eta%20Theta%20Tau%20-%20Parse%201.8.2/ParseStarterProject/res/layout/songs_cell.xml -->

@@ -1,6 +1,5 @@
 package com.rja.etaThetaTau;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -57,14 +56,6 @@ public class SongsFragment extends Fragment implements View.OnClickListener, Ada
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         //setHasOptionsMenu(true);
-    }
-
-    @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-        //getActivity().invalidateOptionsMenu();
-        //this.setHasOptionsMenu(true);
-
     }
 
     @Override
