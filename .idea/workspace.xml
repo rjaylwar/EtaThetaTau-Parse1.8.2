@@ -17,96 +17,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.rja.etaThetaTau" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddbb5286-092e-4751-8a9b-bc56114db115" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/AbsDatabaseObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values/AbsPreferences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/volley/AbsVolleyRequester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/api/ApiHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/api/ApiResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/objects/AudioPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/views/AudioPlayerView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/views/BannerView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/base/BaseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/base/BaseFragActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/base/BaseFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/DatabaseHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/DatabaseIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/DatabaseProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/views/EmptyListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values/FieldNames.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/api/GsonFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/api/GsonRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/volley/GsonVolleyRequester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/volley/JsonObjectVolleyRequester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values/ListData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/views/LoadMoreRecyclerView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/objects/ParseBaseObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values/Preferences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/helpers/ProgressDialogHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/volley/StringObjectVolleyRequester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/Table.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/TablesSQL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/base/ToolbarActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/volley/VolleyRequestListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/volley/VolleyRequestQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/activity_recycler_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/audio_player_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/basic_swipe_refresh_recyclerview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/breakline.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/drawable/circle_outline.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/values-land/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/glide_3_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/drawable/green_button.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_0_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/new_audio_player_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/drawable/rounded_drawable.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/values/style.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/values-v21/style.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v13_23_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/tabs_bar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/drawable/toolbar_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/toolbar_basic.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/toolbar_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/toolbar_tabs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/venmo_webview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/view_pager_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseStarterProject/res/layout/widget_empty_list_with_button.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/release/com/rja/etaThetaTau/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/test/debug/com/rja/etaThetaTau/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/release/com/rja/etaThetaTau/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/release/com/rja/etaThetaTau/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/aidl/android/support/v4/app/INotificationSideChannel.aidl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/tmp/dex/debug/inputList.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseStarterProject/build/intermediates/tmp/dex/release/inputList.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v13_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/debug/com/rja/etaThetaTau/BuildConfig.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/buildConfig/debug/com/rja/etaThetaTau/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eta Theta Tau - Parse 1.8.2.iml" afterPath="$PROJECT_DIR$/Eta Theta Tau - Parse 1.8.2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/HotLyricsAdapter.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/HotLyricsAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/ParseApplication.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/ParseApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" afterPath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/rja/etaThetaTau/R.java" afterPath="$PROJECT_DIR$/ParseStarterProject/build/generated/source/r/debug/com/rja/etaThetaTau/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/SongsArrayAdapter.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/SongsArrayAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/SongsFragment.java" afterPath="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/SongsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/build.gradle" afterPath="$PROJECT_DIR$/ParseStarterProject/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/res/values/dimens.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseStarterProject/res/values/strings.xml" afterPath="$PROJECT_DIR$/ParseStarterProject/res/values/strings.xml" />
-    </list>
+    <list default="true" id="ddbb5286-092e-4751-8a9b-bc56114db115" name="Default" comment="" />
     <ignored path="Eta Theta Tau - Parse 1.8.2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -171,23 +82,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preferences.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values/Preferences.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -198,15 +92,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BannerView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BannerView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/views/BannerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.610687">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1102#1253#0" expanded="true" />
                 <element signature="e#1252#1253#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widget_banner.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/widget_banner.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57507986">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1897,12 +1805,30 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="etaThetaTau" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParseStarterProject" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1921,32 +1847,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="etaThetaTau" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParseStarterProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etaThetaTau" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1995,11 +1895,11 @@
       <recent name="com.rja.etaThetaTau.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ParseStarterProject/res/layout" />
       <recent name="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/views" />
       <recent name="$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/values" />
       <recent name="$PROJECT_DIR$/ParseStarterProject/res/drawable" />
       <recent name="$PROJECT_DIR$/ParseStarterProject/res/drawable-xxhdpi" />
-      <recent name="$PROJECT_DIR$/ParseStarterProject/res/layout" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.rja.etaThetaTau" />
@@ -2242,12 +2142,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2301,14 +2201,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/DatabaseProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="200" column="5" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/database/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2760,12 +2652,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/com/rja/etaThetaTau/views/BannerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.610687">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1102#1253#0" expanded="true" />
             <element signature="e#1252#1253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/res/layout/widget_banner.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57507986">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
