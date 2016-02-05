@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff0c4e76">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#083551">
+
+<!--        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:layout_centerInParent="true"
+            android:textSize="40sp"
+            android:showText="true"
+            android:textColor="#ffffffff"
+            android:textOn="Videos"
+            android:textOff="Lyrics"
+            android:layout_centerVertical="true"
+            android:id="@+id/songs_switch"
+            android:visibility="gone"/>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_white_rounded_button_background"
+                android:text="Lyrics"
+                android:textSize="18sp"
+                android:textColor="#083551"
+                android:id="@+id/songs_showlyrics_button"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_and_blue_button_background"
+                android:text="Videos"
+                android:textSize="18sp"
+                android:textColor="#ffffffff"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:id="@+id/songs_videos_button"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="#083551"
+            android:text="\u21BB"
+            android:textSize="30sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/songs_reload_button"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        android:layout_gravity="center" />
+
+</LinearLayout>

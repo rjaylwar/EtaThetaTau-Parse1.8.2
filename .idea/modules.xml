@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Eta Theta Tau - Parse 1.8.2.iml" filepath="$PROJECT_DIR$/Eta Theta Tau - Parse 1.8.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EtaThetaTau/EtaThetaTau.iml" filepath="$PROJECT_DIR$/EtaThetaTau/EtaThetaTau.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codegen/codegen.iml" filepath="$PROJECT_DIR$/codegen/codegen.iml" />
     </modules>
   </component>
 </project>
-

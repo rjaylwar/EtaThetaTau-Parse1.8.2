@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-    <corners android:radius="1dp" />
-    <solid android:color="#ffffffff" />
-    <stroke android:width="2px" android:color="#ffffffff" />
-</shape><!-- From: file:/Users/rjaylward/Google%20Drive/Android%20Studio/Eta%20Theta%20Tau%20-%20Parse%201.8.2/ParseStarterProject/res/drawable/all_white_rounded_button_background.xml -->
