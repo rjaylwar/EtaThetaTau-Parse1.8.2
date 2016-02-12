@@ -100,9 +100,9 @@ public class ObjectTemplate {
         return mConstantObjectName;
     }
 
-    public static final String CONTENT_VALUES = "\t\tvalues.put(Table.%1$ss.%2$s, %3$s.get%4$s());\n";
-    public static final String CONTENT_VALUES_FOR_BOOLEAN = "\t\tvalues.put(Table.%1$ss.%2$s, %3$s.get%4$s() ? 1 : 0);\n";
-    public static final String CONTENT_VALUES_FOR_ARRAY = "\t\tvalues.put(Table.%1$ss.%2$s, Util.printArrayListAsString(%3$s.get%4$s()));\n";
+    public static final String CONTENT_VALUES = "\t\tvalues.put(Table.%1$ss.%2$s, m%3$s);\n";
+    public static final String CONTENT_VALUES_FOR_BOOLEAN = "\t\tvalues.put(Table.%1$ss.%2$s, m%3$s ? 1 : 0);\n";
+    public static final String CONTENT_VALUES_FOR_ARRAY = "\t\tvalues.put(Table.%1$ss.%2$s, Util.printArrayListAsString(m%3$s));\n";
 
     public static final String GET_OBJECT =
             "\tpublic ContentValues toContentValues() {\n" +
@@ -117,13 +117,13 @@ public class ObjectTemplate {
             switch (cf.getFieldClass()) {
                 case ClassField.INT_ARRAY_LIST:
                 case ClassField.STRING_ARRAY_LIST:
-                    s.append(String.format(CONTENT_VALUES_FOR_ARRAY, this.getClassName(), cf.getConstantFieldName(), "this", cf.getName()));
+                    s.append(String.format(CONTENT_VALUES_FOR_ARRAY, this.getClassName(), cf.getConstantFieldName(), cf.getName()));
                     break;
                 case ClassField.BOOL:
-                    s.append(String.format(CONTENT_VALUES_FOR_BOOLEAN, this.getClassName(), cf.getConstantFieldName(), "this", cf.getName()));
+                    s.append(String.format(CONTENT_VALUES_FOR_BOOLEAN, this.getClassName(), cf.getConstantFieldName(), cf.getName()));
                     break;
                 default:
-                    s.append(String.format(CONTENT_VALUES, this.getClassName(), cf.getConstantFieldName(), "this", cf.getName()));
+                    s.append(String.format(CONTENT_VALUES, this.getClassName(), cf.getConstantFieldName(), cf.getName()));
                     break;
             }
         }

@@ -1,7 +1,5 @@
 package com.rja.etaThetaTau.volley;
 
-import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.android.volley.AuthFailureError;
@@ -19,19 +17,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by rjaylward on 9/22/15.
+ * Created by rjaylward on 9/22/15
  */
 public class GsonVolleyRequester<T extends ApiResponse> extends AbsVolleyRequester {
 
     protected Class<T> mClass;
 
-    public GsonVolleyRequester (Context context, Class<T> theClass) {
+    public GsonVolleyRequester(VolleyContext context, Class<T> theClass) {
         super(context);
         mClass = theClass;
     }
 
     @Override
-    protected Request buildRequest(AppCompatActivity activity, int requestType, String url, JsonObject requestBody,
+    protected Request buildRequest(VolleyContext volleyContext, int requestType, String url, JsonObject requestBody,
                                    final VolleyRequestListener listener, int timeoutLength, boolean handleResponse) {
 
         final boolean authorizationHeaderRequired = true;

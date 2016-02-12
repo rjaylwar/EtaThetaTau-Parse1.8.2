@@ -1,12 +1,11 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:tools="http://schemas.android.com/tools" tools:context="com.parse.ummalibu.MainActivity">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/menu_item_feedback"
             android:checked="false"
             android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
-            android:title="Settings" />
+            android:title="Settings"/>
     </group>
 
 </menu>

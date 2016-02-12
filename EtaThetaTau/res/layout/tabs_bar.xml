@@ -11,6 +11,6 @@
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="@dimen/abc_action_bar_default_height_material"
-        android:background="@color/hot_dark_background_blue"/>
+        android:background="@color/um_dark_blue"/>
 
 </android.support.design.widget.AppBarLayout>

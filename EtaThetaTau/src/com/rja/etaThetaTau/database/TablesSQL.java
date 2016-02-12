@@ -38,7 +38,34 @@ public class TablesSQL {
 //            Table.TumblrTalks.TIMESTAMP + " INTEGER, " +
 //            "UNIQUE (" + Table.TumblrTalks.OBJECT_ID + "," + Table.TumblrTalks.TITLE + ")" + ");";
 
-    public static final String[] TABLE_NAMES = {};
+    public static final String CREATE_SCRIPTS_TABLE = "CREATE TABLE " + Table.Scripts.TABLE_NAME + " ( " +
+            Table.Scripts.OBJECT_ID + " TEXT PRIMARY KEY, " +
+            Table.Scripts.TITLE + " TEXT, " +
+            Table.Scripts.TAG + " TEXT, " +
+            Table.Scripts.HTML_SCRIPT + " TEXT " + ");";
+
+    public static final String CREATE_HOT_FEED_ITEMS_TABLE = "CREATE TABLE " + Table.HotFeedItems.TABLE_NAME + " ( " +
+            Table.HotFeedItems.ID + " TEXT PRIMARY KEY," +
+            Table.HotFeedItems.DATE + " TEXT," +
+            Table.HotFeedItems.IMAGES + " TEXT," +
+            Table.HotFeedItems.LINK_TITLE + " TEXT," +
+            Table.HotFeedItems.LINK_URL + " TEXT," +
+            Table.HotFeedItems.LINK_IMAGE + " TEXT," +
+            Table.HotFeedItems.LOCATION_LATITUDE + " INTEGER," +
+            Table.HotFeedItems.LOCATION_LONGITUDE + " INTEGER," +
+            Table.HotFeedItems.LOCATION_TITLE + " TEXT," +
+            Table.HotFeedItems.MAIN_IMAGE + " TEXT," +
+            Table.HotFeedItems.MESSAGE + " TEXT," +
+            Table.HotFeedItems.REMINDER + " TEXT," +
+            Table.HotFeedItems.SNACKS_DRINKS + " TEXT," +
+            Table.HotFeedItems.SNACKS_SALTY + " TEXT," +
+            Table.HotFeedItems.SNACKS_SWEET + " TEXT," +
+            Table.HotFeedItems.TAG + " INTEGER," +
+            Table.HotFeedItems.THEME + " TEXT," +
+            Table.HotFeedItems.TITLE + " TEXT," +
+            Table.HotFeedItems.TYPE + " TEXT " + ");";
+
+    public static final String[] TABLE_NAMES = {Table.Scripts.TABLE_NAME};
 
     public static String deleteTable(String tableName) {
         return "DROP TABLE IF EXISTS " + tableName;

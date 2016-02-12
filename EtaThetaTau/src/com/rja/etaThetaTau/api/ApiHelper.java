@@ -1,10 +1,11 @@
 package com.rja.etaThetaTau.api;
 
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.rja.etaThetaTau.objects.HotFeedItemResponse;
 import com.rja.etaThetaTau.objects.TonightResponse;
 import com.rja.etaThetaTau.volley.GsonVolleyRequester;
+import com.rja.etaThetaTau.volley.VolleyContext;
 import com.rja.etaThetaTau.volley.VolleyRequestListener;
 
 /**
@@ -12,19 +13,28 @@ import com.rja.etaThetaTau.volley.VolleyRequestListener;
  **/
 public class ApiHelper {
 
-    AppCompatActivity mActivity;
+    VolleyContext mContext;
     public static final String PARSE_API_URL = "https://api.parse.com/1/classes/";
+    public static final String FIRE_BASE_URL = "https://etathetatau.firebaseio.com/";
 
-    public ApiHelper(AppCompatActivity activity) {
-        mActivity = activity;
+    public ApiHelper(VolleyContext context) {
+        mContext = context;
     }
 
     public void getTonightObjects(VolleyRequestListener<TonightResponse> uiListener) {
         String url = PARSE_API_URL + "tonight";
         Log.d("get all tonight objects", url);
 
-        GsonVolleyRequester<TonightResponse> volleyRequester = new GsonVolleyRequester<>(mActivity, TonightResponse.class);
-        volleyRequester.makeGetRequest(mActivity, url, uiListener);
+        GsonVolleyRequester<TonightResponse> volleyRequester = new GsonVolleyRequester<>(mContext, TonightResponse.class);
+        volleyRequester.makeGetRequest(mContext, url, uiListener);
+    }
+
+    public void getFeedItems(VolleyRequestListener<HotFeedItemResponse> uiListener) {
+        String url = FIRE_BASE_URL + "hot_feed.json";
+        Log.d("get all feed items", url);
+
+        GsonVolleyRequester<HotFeedItemResponse> volleyRequester = new GsonVolleyRequester<>(mContext, HotFeedItemResponse.class);
+        volleyRequester.makeGetRequest(mContext, url, uiListener);
     }
 //
 //    public void getTalksJson(VolleyRequestListener uiListener) {

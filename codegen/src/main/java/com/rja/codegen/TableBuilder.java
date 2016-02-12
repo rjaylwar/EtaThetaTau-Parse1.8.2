@@ -18,11 +18,11 @@ public class TableBuilder {
     private static final String TABLE_DECLARATION =
             "\tpublic static final class %1$ss {\n" +
             "\t\tpublic static final String TABLE_NAME = \"%2$ss\";\n" +
-            "\t\tpublic static final Uri CONTENT_URI = Uri.parse(\"content://\" + DatabaseProvider.AUTHORITY + \"/\" + TABLE_NAME);" +
-            "\t\tpublic static final String CONTENT_ITEM_TYPE = \"vnd.android.cursor.item/vnd.UM.\" + TABLE_NAME;" +
+            "\t\tpublic static final Uri CONTENT_URI = Uri.parse(\"content://\" + DatabaseProvider.AUTHORITY + \"/\" + TABLE_NAME);\n\n" +
+            "\t\tpublic static final String CONTENT_ITEM_TYPE = \"vnd.android.cursor.item/vnd.UM.\" + TABLE_NAME;\n" +
             "%3$s\n\t}";
 
-    private static final String TABLE_COLUMN_DECLARATION = "public static final String %1$s = FieldNames.%1$s;";
+    private static final String TABLE_COLUMN_DECLARATION = "\t\tpublic static final String %1$s = FieldNames.%1$s;\n";
 
     public String getTableDeclaration(ObjectTemplate ot) {
         StringBuilder sb = new StringBuilder();
@@ -41,23 +41,23 @@ public class TableBuilder {
 //            Table.Requests.CANCELED + " TINYINT DEFAULT 0 " + ");";
 
     private static final String TABLE_SQL_DECLARATION =
-            "public static final String CREATE_%1$sS_TABLE = \"CREATE TABLE \" + Table.Requests.TABLE_NAME + \" ( \" +\n" +
-            "%2$s \" + \");\";";
+            "public static final String CREATE_%1$sS_TABLE = \"CREATE TABLE \" + Table.%2$ss.TABLE_NAME + \" ( \" +\n" +
+            "%3$s \" + \");\";";
 
     private static final String ROW_SQL_DECLARATION = "Table.%1$ss.%2$s + \" %3$s";
-    private static final String ROW_SQL_DIVIDER = ",\" +\n";
+    private static final String ROW_SQL_DIVIDER = ",\" +\n\t\t";
 
     public String getTableSql(ObjectTemplate ot) {
         StringBuilder sb = new StringBuilder();
         int size = ot.getFields().size();
 
         for (int i = 0; i < size; i++) {
-            sb.append(String.format(ROW_SQL_DECLARATION, ot.getConstantObjectName(), ot.getClassName(), getSqlTypeFromClassField(ot.getFields().get(i))));
+            sb.append(String.format(ROW_SQL_DECLARATION, ot.getClassName(), ot.getFields().get(i).getConstantFieldName(), getSqlTypeFromClassField(ot.getFields().get(i))));
             if(i < size - 1)
                 sb.append(ROW_SQL_DIVIDER);
         }
 
-        return String.format(TABLE_SQL_DECLARATION, ot.getConstantObjectName(), sb.toString());
+        return String.format(TABLE_SQL_DECLARATION, ot.getConstantObjectName(), ot.getClassName(), sb.toString());
     }
 
     private String getSqlTypeFromClassField(ClassField cf) {

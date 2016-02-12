@@ -1,7 +1,5 @@
 package com.rja.etaThetaTau.base;
 
-import android.support.v4.app.Fragment;
-
 import com.rja.etaThetaTau.R;
 
 /**
@@ -9,7 +7,7 @@ import com.rja.etaThetaTau.R;
  */
 public abstract class BaseFragActivity extends BaseActivity {
 
-    private Fragment mFragment;
+    private BaseFragment mFragment;
     private static final String FRAGMENT_TAG = "frag_tag";
     private OnActivityBackPressedListener mListener;
 
@@ -21,7 +19,7 @@ public abstract class BaseFragActivity extends BaseActivity {
     @Override
     public void initLayout() {
         mFragment = getFragment();
-//        this.setOnActivityBackPressedListener(mFragment);
+        setOnActivityBackPressedListener(mFragment);
         mFragment.setArguments(getIntent().getExtras());
 
         if(mFragment != null) {
@@ -31,7 +29,7 @@ public abstract class BaseFragActivity extends BaseActivity {
         }
     }
 
-    protected abstract Fragment getFragment();
+    protected abstract BaseFragment getFragment();
 
     public void setOnActivityBackPressedListener(OnActivityBackPressedListener listener) {
         mListener = listener;

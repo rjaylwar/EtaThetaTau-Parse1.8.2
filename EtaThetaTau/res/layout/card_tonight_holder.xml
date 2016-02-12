@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp"
+    android:layout_margin="8dp">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvh_top_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            tools:text="TONIGHT"
+            style="@style/Card.TitleText"/>
+
+        <TextView
+            android:id="@+id/tvh_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tvh_top_title_text"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            tools:text="2/28/15"
+            style="@style/Card.SubtitleText"/>
+
+        <!--suppress AndroidDomInspection -->
+        <RelativeLayout
+            android:id="@+id/tvh_image_layout"
+            app:layout_widthPercent="100%"
+            app:layout_aspectRatio="178%"
+            android:layout_below="@+id/tvh_top_title_text"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/tvh_image"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                tools:background="@color/light_grey"/>
+
+            <TextView
+                android:id="@+id/tvh_main_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                style="@style/Card.LightTitleText"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvh_description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvh_image_layout"
+            android:layout_marginBottom="24dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            tools:text="Hey Hotties, you guys are the best. We are going to have a great practice tonight!"
+            style="@style/Card.DescriptionText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvh_description_text"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                android:id="@+id/tvh_salty_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                tools:text="Alanna A."
+                style="@style/Card.SubtitleText"/>
+
+            <TextView
+                android:id="@+id/tvh_sweet_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                tools:text="Kayleigh T."
+                style="@style/Card.SubtitleText"/>
+
+            <TextView
+                android:id="@+id/tvh_drinks_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Matt B."
+                style="@style/Card.SubtitleText"/>
+
+        </LinearLayout>
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.v7.widget.CardView>

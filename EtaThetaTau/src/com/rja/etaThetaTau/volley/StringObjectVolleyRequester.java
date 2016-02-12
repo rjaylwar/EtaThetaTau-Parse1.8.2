@@ -1,8 +1,5 @@
 package com.rja.etaThetaTau.volley;
 
-import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
-
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
@@ -23,18 +20,18 @@ import java.util.Map;
  */
 public class StringObjectVolleyRequester extends AbsVolleyRequester {
 
-    public StringObjectVolleyRequester(Context context) {
+    public StringObjectVolleyRequester(VolleyContext context) {
         super(context);
     }
 
     @Override
-    protected Request buildRequest(AppCompatActivity activity, int requestType, final String url, final JsonObject
+    protected Request buildRequest(VolleyContext volleyContext, int requestType, final String url, final JsonObject
             requestBody, final VolleyRequestListener listener, int timeout, boolean handleResponse) {
 
-        return buildRequest(activity, requestType, url, requestBody == null ? new JsonObject().toString() : requestBody.toString(), listener, timeout, handleResponse);
+        return buildRequest(volleyContext, requestType, url, requestBody == null ? new JsonObject().toString() : requestBody.toString(), listener, timeout, handleResponse);
     }
 
-    protected Request buildRequest(AppCompatActivity activity, int requestType, final String url, final String
+    protected Request buildRequest(VolleyContext volleyContext, int requestType, final String url, final String
             requestBody, final VolleyRequestListener listener, int timeout, boolean handleResponse) {
 
         StringRequest stringRequest = new StringRequest(requestType, url, new Response.Listener<String>() {

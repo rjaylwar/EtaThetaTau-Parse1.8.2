@@ -60,7 +60,7 @@ public class DatabaseBuilder {
             "\t\t\t\t\t%1$s %2$s = %1$s.fromCursor(cursor);\n\n" +
             "\t\t\t\t\tif(%2$s != null)\n\n" +
             "\t\t\t\t\t\t%2$ss.add(%2$s);\n" +
-            "\t\t\t\t} while (cursor.moveToNext());\n\t\t\t}\n\t\t} finally {\n\t\t\tif(cursor != null)\n\t\t\t\tcursor.close();\t\t\n\n}\n\n" +
+            "\t\t\t\t} while (cursor.moveToNext());\n\t\t\t}\n\t\t} finally {\n\t\t\tif(cursor != null)\n\t\t\t\tcursor.close();\t\t\n}\n\n" +
             "\t\treturn %2$ss;\n\t}";
 
 //    public synchronized ArrayList<Talk> getAllTalks() {
@@ -100,7 +100,7 @@ public class DatabaseBuilder {
 
     public static final String UPDATE_OBJECT =
             "\tpublic synchronized void update%1$s(%1$s %2$s) {\n" +
-            "\t\tmContentResolver.update(Table.%1$ss.CONTENT_URI, %2$s.toContentValues(), Table.%1$ss.OBJECT_ID + \" = '\" + %2$s.getObjectId() + \"'\", null);\n\t}";
+            "\t\tmContentResolver.update(Table.%1$ss.CONTENT_URI, %2$s.toContentValues(), Table.%1$ss.ID + \" = '\" + %2$s.getId() + \"'\", null);\n\t}";
 
     public String generateUpdateMethod(ObjectTemplate ot) {
         return String.format(UPDATE_OBJECT, ot.getClassName(), ot.getVarName());
@@ -112,9 +112,21 @@ public class DatabaseBuilder {
 
     public static final String DELETE_OBJECT =
             "\tpublic synchronized void delete%1$s(String id) {\n" +
-            "\t\tmContentResolver.delete(Table.%1$ss.CONTENT_URI, %2$s.toContentValues(), Table.%1$ss.OBJECT_ID + \" == '\" + %2$s.getObjectId() + \"'\", null);\n\t}";
+            "\t\tmContentResolver.delete(Table.%1$ss.CONTENT_URI, %2$s.toContentValues(), Table.%1$ss.ID + \" == '\" + %2$s.getId() + \"'\", null);\n\t}";
 
     public String generateDeleteMethod(ObjectTemplate ot) {
-        return String.format(UPDATE_OBJECT, ot.getClassName(), ot.getVarName());
+        return String.format(DELETE_OBJECT, ot.getClassName(), ot.getVarName());
+    }
+
+    public String getAllDatabaseMethods(ObjectTemplate ot) {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append(generateAddMethod(ot)).append("\n\n");
+        sb.append(generateAddAllMethod(ot)).append("\n\n");
+        sb.append(generateGetAllMethod(ot)).append("\n\n");
+        sb.append(generateUpdateMethod(ot)).append("\n\n");
+        sb.append(generateDeleteMethod(ot)).append("\n\n");
+
+        return sb.toString();
     }
 }

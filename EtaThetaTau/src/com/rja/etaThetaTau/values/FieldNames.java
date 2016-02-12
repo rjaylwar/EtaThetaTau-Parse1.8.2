@@ -12,7 +12,6 @@ public class FieldNames {
 
     public static final String CREATED_AT = "createdAt";
     public static final String OBJECT_ID = "objectId";
-    public static final String TITLE = "title";
     public static final String UPDATED_AT = "updatedAt";
 
     public static final String RESULTS = "results";
@@ -20,14 +19,11 @@ public class FieldNames {
     public static final String NAME = "name";
 
     public static final String PHONE_NUMBER = "phoneNumber";
-    public static final String LATITUDE = "latitude";
-    public static final String LONGITUDE = "longitude";
     public static final String EMAIL = "email";
 
 
     public static final String DESCRIPTION_ARRAY = "description_array";
     public static final String DESCRIPTION = "description";
-    public static final String DRINKS = "drinks";
     public static final String GUEST_DESCRIPTION_ARRAY = "guest_description_array";
     public static final String GUEST_DESCRIPTION = "guest_description";
     public static final String HEADING = "heading";
@@ -63,4 +59,43 @@ public class FieldNames {
 //            "salty_snack": "Luck",
 //            "sweet_snack": "Good",
 //            "updatedAt": "2015-03-19T00:55:15.999Z"
-}
+
+    public static final class Script {
+        public static final String TITLE = "title";
+        public static final String TAG = "tag";
+        public static final String HTML_SCRIPT = "html_script";
+    }
+
+    // HotFeedItem.class Api Field Name
+    public static final String ID = "id";
+    public static final String DATE = "date";
+    public static final String IMAGES = "images";
+    public static final String LINK = "link";
+    public static final String LOCATION = "location";
+    public static final String MAIN_IMAGE = "main_image";
+    public static final String MESSAGE = "message";
+    public static final String REMINDER = "reminder";
+    public static final String SNACKS = "snacks";
+    public static final String TAG = "tag";
+    public static final String THEME = "theme";
+    public static final String TITLE = "title";
+    public static final String TYPE = "type";
+
+    public static final String LINK_TITLE = "link_title";
+    public static final String LINK_URL = "link_url";
+    public static final String LINK_IMAGE = "link_image";
+    public static final String LOCATION_LATITUDE = "location_latitude";
+    public static final String LOCATION_LONGITUDE = "location_longitude";
+    public static final String LOCATION_TITLE = "location_title";
+    public static final String SNACKS_DRINKS = "snacks_drinks";
+    public static final String SNACKS_SALTY = "snacks_salty";
+    public static final String SNACKS_SWEET = "snack_sweet";
+
+    public static final String URL = "url";
+    public static final String IMAGE = "image";
+    public static final String LATITUDE = "latitude";
+    public static final String LONGITUDE = "longitude";
+    public static final String SALTY = "salty";
+    public static final String SWEET = "sweet";
+    public static final String DRINKS = "drinks";
+ }

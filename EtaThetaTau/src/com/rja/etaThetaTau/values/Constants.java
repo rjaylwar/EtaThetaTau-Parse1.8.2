@@ -5,6 +5,8 @@ package com.rja.etaThetaTau.values;
  */
 public class Constants {
 
+    public static final boolean IS_DEBUG_MODE = true;
+
     public static final String PARSE_API_KEY = "DmMChll2DEBaeXA6m7dNtkVeFlnEbwL9En9RElyU";
     public static final String PARSE_APP_ID = "M8lsPPcaku0od8yzToKaHKR11TUFlsZuRPorClFt";
 
