@@ -2,6 +2,8 @@ package com.rja.etaThetaTau.objects;
 
 import android.content.ContentValues;
 import android.database.Cursor;
+import android.os.Parcel;
+import android.os.Parcelable;
 
 import com.google.gson.annotations.SerializedName;
 import com.rja.etaThetaTau.database.Table;
@@ -14,7 +16,7 @@ import java.util.Arrays;
 /**
  * Created by rjaylward on 2/7/16
  */
-public class HotFeedItem {
+public class HotFeedItem implements Parcelable {
 
     private String mId;
 
@@ -54,6 +56,7 @@ public class HotFeedItem {
     @SerializedName(FieldNames.TYPE)
     private String mType;
 
+    public HotFeedItem() {}
 
     public void setDate(String date) {
         mDate = date;
@@ -176,18 +179,18 @@ public class HotFeedItem {
         return values;
     }
 
-    public HotFeedItem fromCursor(Cursor cursor) {
+    public static HotFeedItem fromCursor(Cursor cursor) {
         HotFeedItem hotFeedItem = new HotFeedItem();
 
         try {
             hotFeedItem.setDate(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.DATE)));
             hotFeedItem.setImages(new ArrayList<String>(Arrays.asList(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.IMAGES)).split(", "))));
-            hotFeedItem.setLink(new Link().fromCursor(cursor));
-            hotFeedItem.setLocation(new Location().fromCursor(cursor));
+            hotFeedItem.setLink(Link.fromCursor(cursor));
+            hotFeedItem.setLocation(Location.fromCursor(cursor));
             hotFeedItem.setMainImage(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.MAIN_IMAGE)));
             hotFeedItem.setMessage(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.MESSAGE)));
             hotFeedItem.setReminder(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.REMINDER)));
-            hotFeedItem.setSnacks(new Snacks().fromCursor(cursor));
+            hotFeedItem.setSnacks(Snacks.fromCursor(cursor));
             hotFeedItem.setTag(cursor.getInt(cursor.getColumnIndexOrThrow(Table.HotFeedItems.TAG)));
             hotFeedItem.setTheme(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.THEME)));
             hotFeedItem.setTitle(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.TITLE)));
@@ -206,181 +209,64 @@ public class HotFeedItem {
         mId = id;
     }
 
-    public class Link {
-
-        @SerializedName(FieldNames.TITLE)
-        private String mTitle;
-
-        @SerializedName(FieldNames.URL)
-        private String mUrl;
-
-        @SerializedName(FieldNames.IMAGE)
-        private String mImage;
-
-        public String getTitle() {
-            return mTitle;
+    protected HotFeedItem(Parcel in) {
+        mId = in.readString();
+        mDate = in.readString();
+        if (in.readByte() == 0x01) {
+            mImages = new ArrayList<String>();
+            in.readList(mImages, String.class.getClassLoader());
+        } else {
+            mImages = null;
         }
-
-        public void setTitle(String title) {
-            mTitle = title;
-        }
-
-        public String getUrl() {
-            return mUrl;
-        }
-
-        public void setUrl(String url) {
-            mUrl = url;
-        }
-
-        public String getImage() {
-            return mImage;
-        }
-
-        public void setImage(String image) {
-            mImage = image;
-        }
-
-        public ContentValues toContentValues() {
-            ContentValues values = new ContentValues();
-
-            values.put(Table.HotFeedItems.LINK_TITLE, mTitle);
-            values.put(Table.HotFeedItems.LINK_URL, mUrl);
-            values.put(Table.HotFeedItems.LINK_IMAGE, mImage);
-
-            return values;
-        }
-
-        public Link fromCursor(Cursor cursor) {
-            Link link = new Link();
-
-            try {
-                link.setTitle(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.LINK_TITLE)));
-                link.setUrl(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.LINK_URL)));
-                link.setImage(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.LINK_IMAGE)));
-            }
-            catch (Exception e) {
-                link = null;
-            }
-
-            return link;
-        }
+        mLink = (Link) in.readValue(Link.class.getClassLoader());
+        mLocation = (Location) in.readValue(Location.class.getClassLoader());
+        mMainImage = in.readString();
+        mMessage = in.readString();
+        mReminder = in.readString();
+        mSnacks = (Snacks) in.readValue(Snacks.class.getClassLoader());
+        mTag = in.readInt();
+        mTheme = in.readString();
+        mTitle = in.readString();
+        mType = in.readString();
     }
 
-    public class Location {
-
-        @SerializedName(FieldNames.TITLE)
-        private String mTitle;
-
-        @SerializedName(FieldNames.LATITUDE)
-        private long mLatitude;
-
-        @SerializedName(FieldNames.LONGITUDE)
-        private long mLongitude;
-
-        public String getTitle() {
-            return mTitle;
-        }
-
-        public void setTitle(String title) {
-            mTitle = title;
-        }
-
-        public long getLatitude() {
-            return mLatitude;
-        }
-
-        public void setLatitude(long latitude) {
-            mLatitude = latitude;
-        }
-
-        public long getLongitude() {
-            return mLongitude;
-        }
-
-        public void setLongitude(long longitude) {
-            mLongitude = longitude;
-        }
-
-        public ContentValues toContentValues() {
-            ContentValues values = new ContentValues();
-
-            values.put(Table.HotFeedItems.LOCATION_TITLE, mTitle);
-            values.put(Table.HotFeedItems.LOCATION_LATITUDE, mLatitude);
-            values.put(Table.HotFeedItems.LOCATION_LONGITUDE, mLongitude);
-
-            return values;
-        }
-
-        public Location fromCursor(Cursor cursor) {
-            Location location = new Location();
-
-            try {
-                location.setTitle(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.LOCATION_TITLE)));
-                location.setLatitude(cursor.getLong(cursor.getColumnIndexOrThrow(Table.HotFeedItems.LOCATION_LATITUDE)));
-                location.setLongitude(cursor.getLong(cursor.getColumnIndexOrThrow(Table.HotFeedItems.LOCATION_LONGITUDE)));
-            } catch (Exception e) {
-                location = null;
-            }
-
-            return location;
-        }
+    @Override
+    public int describeContents() {
+        return 0;
     }
 
-    public class Snacks {
-
-        @SerializedName(FieldNames.SALTY)
-        private String mSalty;
-
-        @SerializedName(FieldNames.SWEET)
-        private String mSweet;
-
-        @SerializedName(FieldNames.DRINKS)
-        private String mDrinks;
-
-        public String getSalty() {
-            return mSalty;
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(mId);
+        dest.writeString(mDate);
+        if (mImages == null) {
+            dest.writeByte((byte) (0x00));
+        } else {
+            dest.writeByte((byte) (0x01));
+            dest.writeList(mImages);
         }
-
-        public void setSalty(String salty) {
-            mSalty = salty;
-        }
-
-        public String getSweet() {
-            return mSweet;
-        }
-
-        public void setSweet(String sweet) {
-            mSweet = sweet;
-        }
-
-        public String getDrinks() {
-            return mDrinks;
-        }
-
-        public void setDrinks(String drinks) {
-            mDrinks = drinks;
-        }
-
-        public ContentValues toContentValues() {
-            ContentValues values = new ContentValues();
-
-            values.put(Table.HotFeedItems.SNACKS_SALTY, mSalty);
-            values.put(Table.HotFeedItems.SNACKS_SWEET, mSweet);
-            values.put(Table.HotFeedItems.SNACKS_DRINKS, mDrinks);
-
-            return values;
-        }
-
-        public Snacks fromCursor(Cursor cursor) {
-            Snacks location = new Snacks();
-
-            location.setSalty(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.SNACKS_SALTY)));
-            location.setSweet(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.SNACKS_SWEET)));
-            location.setDrinks(cursor.getString(cursor.getColumnIndexOrThrow(Table.HotFeedItems.SNACKS_DRINKS)));
-
-            return location;
-        }
+        dest.writeValue(mLink);
+        dest.writeValue(mLocation);
+        dest.writeString(mMainImage);
+        dest.writeString(mMessage);
+        dest.writeString(mReminder);
+        dest.writeValue(mSnacks);
+        dest.writeInt(mTag);
+        dest.writeString(mTheme);
+        dest.writeString(mTitle);
+        dest.writeString(mType);
     }
 
+    @SuppressWarnings("unused")
+    public static final Parcelable.Creator<HotFeedItem> CREATOR = new Parcelable.Creator<HotFeedItem>() {
+        @Override
+        public HotFeedItem createFromParcel(Parcel in) {
+            return new HotFeedItem(in);
+        }
+
+        @Override
+        public HotFeedItem[] newArray(int size) {
+            return new HotFeedItem[size];
+        }
+    };
 }

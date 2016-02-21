@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/hot_light_background_blue</item>
         <item name="colorPrimaryDark">@color/hot_dark_background_blue</item>
         <item name="colorAccent">@color/hot_green_blue</item>
@@ -55,6 +55,8 @@
     <style name="Card.DescriptionText" parent="@android:style/TextAppearance">
         <item name="android:textSize">16dp</item>
         <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
         <item name="android:textColor">@color/dark_grey</item>
     </style>
 
@@ -73,8 +75,27 @@
 
     <style name="Card.HeaderTitleText" parent="@android:style/TextAppearance">
         <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/um_highlight_blue</item>
+    </style>
+
+    <style name="View.SnacksTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="View.SnacksSubtitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray_white</item>
     </style>
 
 </resources>

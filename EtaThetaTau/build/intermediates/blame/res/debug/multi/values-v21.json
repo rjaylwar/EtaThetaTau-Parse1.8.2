@@ -1742,9 +1742,28 @@
                     "startLine": 254,
                     "startColumn": 4,
                     "startOffset": 18313,
-                    "endLine": 259,
+                    "endColumn": 121,
+                    "endOffset": 18430
+                },
+                "from": {
+                    "file": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/res/values-v21/appinvite_styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 121,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 18435,
+                    "endLine": 260,
                     "endColumn": 12,
-                    "endOffset": 18653
+                    "endOffset": 18775
                 },
                 "from": {
                     "file": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/res/values-v21/style.xml",
@@ -1760,12 +1779,12 @@
             },
             {
                 "to": {
-                    "startLine": 260,
+                    "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 18658,
-                    "endLine": 262,
+                    "startOffset": 18780,
+                    "endLine": 263,
                     "endColumn": 12,
-                    "endOffset": 18799
+                    "endOffset": 18921
                 },
                 "from": {
                     "file": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/res/values-v21/style.xml",

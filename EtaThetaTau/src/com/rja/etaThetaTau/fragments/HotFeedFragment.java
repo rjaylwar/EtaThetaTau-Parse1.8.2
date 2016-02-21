@@ -1,6 +1,7 @@
 package com.rja.etaThetaTau.fragments;
 
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 
 import com.android.volley.VolleyError;
@@ -20,10 +21,12 @@ import butterknife.Bind;
 /**
  * Created by rjaylward on 2/11/16
  */
-public class HotFeedFragment extends BaseFragment {
+public class HotFeedFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
 
     @Bind(R.id.recycler_view)
     LoadMoreRecyclerView mRecyclerView;
+    @Bind(R.id.swipe_refresh)
+    SwipeRefreshLayout mRefreshLayout;
 
     HotFeedAdapter mFeedAdapter;
 
@@ -41,7 +44,8 @@ public class HotFeedFragment extends BaseFragment {
     protected void initLayout(Bundle bundle) {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         mRecyclerView.setAdapter(mFeedAdapter);
-        getFeedItems();
+        mRefreshLayout.setOnRefreshListener(this);
+        onRefresh();
     }
 
     private void getFeedItems() {
@@ -50,6 +54,7 @@ public class HotFeedFragment extends BaseFragment {
 
             @Override
             public void onResponse(HotFeedItemResponse response) {
+                mRefreshLayout.setRefreshing(false);
                 loadAdapter(response.getHotFeedItems());
             }
 
@@ -64,4 +69,8 @@ public class HotFeedFragment extends BaseFragment {
         mFeedAdapter.loadItems(items);
     }
 
+    @Override
+    public void onRefresh() {
+        getFeedItems();
+    }
 }

@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.rja.etaThetaTau.R;
 
 /**
- * Created by rjaylward on 9/25/15.
+ * Created by rjaylward on 9/25/15
  */
 public class EmptyListView extends RelativeLayout {
 
