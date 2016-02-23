@@ -13,8 +13,10 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.rja.etaThetaTau.R;
+import com.rja.etaThetaTau.activities.ImagesActivity;
 import com.rja.etaThetaTau.adapters.ImagesAdapter;
 import com.rja.etaThetaTau.base.BaseFragment;
+import com.rja.etaThetaTau.interfaces.OnClickAtIndexListener;
 import com.rja.etaThetaTau.objects.HotFeedItem;
 import com.rja.etaThetaTau.objects.Location;
 import com.rja.etaThetaTau.views.ThreeByTwoTextView;
@@ -24,7 +26,7 @@ import butterknife.Bind;
 /**
  * Created by rjaylward on 2/12/16
  */
-public class TonightDetailsFragment extends BaseFragment {
+public class TonightDetailsFragment extends BaseFragment implements OnClickAtIndexListener{
 
     @Bind(R.id.backdrop)
     ImageView mToolbarBackdrop;
@@ -46,6 +48,7 @@ public class TonightDetailsFragment extends BaseFragment {
     MapView mMapView;
 
     ImagesAdapter mImagesAdapter;
+    HotFeedItem mHotFeedItem;
 
     public static Bundle createBundle(HotFeedItem hotFeedItem) {
         Bundle bundle = new Bundle();
@@ -74,18 +77,21 @@ public class TonightDetailsFragment extends BaseFragment {
     @Override
     protected void initLayout(Bundle bundle) {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
-        mImagesAdapter = new ImagesAdapter(getContext());
+        mImagesAdapter = new ImagesAdapter(getContext(), this);
         mRecyclerView.setAdapter(mImagesAdapter);
         mRecyclerView.setNestedScrollingEnabled(false);
+        mMapView.onCreate(bundle);
 
-        HotFeedItem hotFeedItem = getArguments().getParcelable(HotFeedItem.class.getCanonicalName());
+        mHotFeedItem = getArguments().getParcelable(HotFeedItem.class.getCanonicalName());
 
-        if(hotFeedItem != null)
-            loadView(hotFeedItem);
+        if(mHotFeedItem != null)
+            loadView(mHotFeedItem);
     }
 
     private void loadView(HotFeedItem hotFeedItem) {
-        mToolbar.setTitle(hotFeedItem.getTitle());
+        if(mActivity.getActionBar() != null)
+            mActivity.getActionBar().setTitle(hotFeedItem.getTitle());
+
         Glide.with(getContext()).load(hotFeedItem.getMainImage()).into(mToolbarBackdrop);
 
         mMessageView.setText(hotFeedItem.getMessage());
@@ -121,5 +127,10 @@ public class TonightDetailsFragment extends BaseFragment {
     private void loadTheme(HotFeedItem hotFeedItem) {
         mThemeView.setText(hotFeedItem.getTheme());
         mImagesAdapter.load(hotFeedItem.getImages());
+    }
+
+    @Override
+    public void onClickAtIndex(int index) {
+        startActivity(ImagesActivity.createIntent(getContext(), mHotFeedItem.getImages(), index));
     }
 }

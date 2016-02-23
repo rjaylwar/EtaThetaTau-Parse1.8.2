@@ -28,6 +28,10 @@
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable/dark_gradient_ascending.xml",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/res/drawable/dark_gradient_ascending.xml"
+    },
+    {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
     },

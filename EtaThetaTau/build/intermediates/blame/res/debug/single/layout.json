@@ -264,6 +264,10 @@
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_separator.xml"
     },
     {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/layout/list_item_flexible_image.xml",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/res/layout/list_item_flexible_image.xml"
+    },
+    {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
     },

@@ -8,11 +8,11 @@
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png",
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
     }
 ]

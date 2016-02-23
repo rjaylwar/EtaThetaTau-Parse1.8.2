@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:bit="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -45,7 +46,7 @@
                 android:id="@+id/ft_message_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 style="@style/Card.DescriptionText"
                 tools:text="Don't forget to bring your money for the thing and the other thing but this is a thing"/>
 
@@ -62,7 +63,7 @@
                 android:id="@+id/ft_reminder_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 style="@style/Card.DescriptionText"
                 tools:text="Don't forget to bring your money for the thing and the other thing but this is a thing"/>
 
@@ -79,7 +80,7 @@
                 android:id="@+id/ft_theme_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 style="@style/Card.DescriptionText"
                 tools:text="Don't forget to bring your money for the thing and the other thing but this is a thing"/>
 
@@ -104,7 +105,7 @@
                 android:id="@+id/ft_location_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 style="@style/Card.DescriptionText"
                 tools:text="Don't forget to bring your money for the thing and the other thing but this is a thing"/>
 
@@ -112,7 +113,9 @@
                 android:layout_marginTop="16dp"
                 android:id="@+id/ft_map"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"/>
+                android:layout_height="250dp"
+                app:liteMode="true"
+                app:mapType="normal"/>
 
         </LinearLayout>
 

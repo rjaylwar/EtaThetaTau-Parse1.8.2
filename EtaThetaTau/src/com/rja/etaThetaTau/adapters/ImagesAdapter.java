@@ -19,9 +19,11 @@ public class ImagesAdapter extends RecyclerView.Adapter implements OnClickAtInde
 
     ArrayList<String> mUrls = new ArrayList<>();
     Context mContext;
+    OnClickAtIndexListener mOnClickAtIndexListener;
 
-    public ImagesAdapter(Context context) {
+    public ImagesAdapter(Context context, OnClickAtIndexListener onClickAtIndexListener) {
         mContext = context;
+        mOnClickAtIndexListener = onClickAtIndexListener;
     }
 
     public void load(ArrayList<String> imageUrls) {
@@ -49,6 +51,7 @@ public class ImagesAdapter extends RecyclerView.Adapter implements OnClickAtInde
 
     @Override
     public void onClickAtIndex(int index) {
-        //TODO something
+        if(mOnClickAtIndexListener != null)
+            mOnClickAtIndexListener.onClickAtIndex(index);
     }
 }

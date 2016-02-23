@@ -8,6 +8,7 @@
 -keep class com.rja.etaThetaTau.LoginActivity { <init>(); }
 -keep class com.rja.etaThetaTau.activities.HotMainActivity { <init>(); }
 -keep class com.rja.etaThetaTau.activities.TonightDetailsActivity { <init>(); }
+-keep class com.rja.etaThetaTau.activities.ImagesActivity { <init>(); }
 -keep class com.parse.PushService { <init>(); }
 -keep class com.parse.ParseBroadcastReceiver { <init>(); }
 -keep class com.parse.GcmBroadcastReceiver { <init>(); }

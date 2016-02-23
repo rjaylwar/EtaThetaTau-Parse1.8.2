@@ -45,7 +45,7 @@ public class HotFeedAdapter extends RecyclerView.Adapter implements OnLinkClicke
 
         switch (viewType) {
             case TONIGHT:
-                return new TonightViewHolder(LayoutInflater.from(mActivity).inflate(R.layout.card_tonight_holder, parent, false));
+                return new TonightViewHolder(mActivity, LayoutInflater.from(mActivity).inflate(R.layout.card_tonight_holder, parent, false));
             case POST:
                 return new PhotoItemViewHolder(LayoutInflater.from(mActivity).inflate(R.layout.card_photo_holder, parent, false));
             case LINK:

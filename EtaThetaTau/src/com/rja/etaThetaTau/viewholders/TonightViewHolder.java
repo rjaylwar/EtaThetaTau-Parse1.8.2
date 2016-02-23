@@ -1,8 +1,8 @@
 package com.rja.etaThetaTau.viewholders;
 
 import android.content.Context;
-import android.renderscript.RenderScript;
 import android.support.v7.widget.RecyclerView;
+import android.support.v8.renderscript.RenderScript;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,9 +11,11 @@ import com.bumptech.glide.Glide;
 import com.rja.etaThetaTau.R;
 import com.rja.etaThetaTau.interfaces.OnHotFeedItemClickListener;
 import com.rja.etaThetaTau.objects.HotFeedItem;
+import com.rja.etaThetaTau.util.Print;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import jp.wasabeef.glide.transformations.BlurTransformation;
 
 /**
  * Created by rjaylward on 2/11/16
@@ -36,10 +38,18 @@ public class TonightViewHolder extends RecyclerView.ViewHolder implements View.O
     RenderScript mRenderScript;
     OnHotFeedItemClickListener mClickListener;
 
-    public TonightViewHolder(View itemView) {
+    public TonightViewHolder(Context context, View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
         itemView.setOnClickListener(this);
+
+        try {
+            mRenderScript = RenderScript.create(context.getApplicationContext());
+        }
+        catch(Exception e) {
+            Print.log("Renderscript Exception");
+            Print.exception(e);
+        }
     }
 
     public void load(HotFeedItem item, Context context, OnHotFeedItemClickListener listener) {
@@ -47,9 +57,8 @@ public class TonightViewHolder extends RecyclerView.ViewHolder implements View.O
         mClickListener = listener;
 
         try {
-
             loadHeading(item);
-            loadImage(item, context);
+            loadImage(item, context, mRenderScript);
             loadDescription(item);
         }
         catch (Exception e) {
@@ -66,8 +75,17 @@ public class TonightViewHolder extends RecyclerView.ViewHolder implements View.O
         mDrinksName.setText(item.getSnacks().getDrinks());
     }
 
-    private void loadImage(HotFeedItem item, Context context) {
-        Glide.with(context).load(item.getMainImage()).into(mImage);
+    private void loadImage(HotFeedItem item, Context context, RenderScript renderScript) {
+        if(renderScript != null)
+            Glide.with(context)
+                    .load(item.getMainImage())
+                    .bitmapTransform(new BlurTransformation(context, 8))
+                    .into(mImage);
+        else
+            Glide.with(context)
+                    .load(item.getMainImage())
+                    .into(mImage);
+
     }
 
     private void loadHeading(HotFeedItem item) {

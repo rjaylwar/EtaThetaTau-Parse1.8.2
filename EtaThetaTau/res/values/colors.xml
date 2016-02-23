@@ -49,4 +49,10 @@
     <color name="teal_ripple">#8800B4B3</color>
     <color name="teal_button_pressed">#009D9D</color>
 
+    <color name="start_gradient">#00000000</color>
+    <color name="center_gradient">#85000000</color>
+    <color name="center_descending_gradient">#2c000000</color>
+    <color name="end_gradient">#f0000000</color>
+    <color name="transparent_black_profile_shader">#5a000000</color>
+
 </resources>

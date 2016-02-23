@@ -41,6 +41,10 @@
     <init>();
 }
 
+-keep class com.rja.etaThetaTau.activities.ImagesActivity {
+    <init>();
+}
+
 -keep class com.parse.PushService {
     <init>();
 }

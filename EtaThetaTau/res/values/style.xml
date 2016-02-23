@@ -75,7 +75,8 @@
 
     <style name="Card.HeaderTitleText" parent="@android:style/TextAppearance">
         <item name="android:textSize">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:textAllCaps">true</item>

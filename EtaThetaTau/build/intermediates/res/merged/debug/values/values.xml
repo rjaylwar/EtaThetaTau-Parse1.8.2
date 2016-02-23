@@ -46,6 +46,8 @@
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="center_descending_gradient">#2c000000</color>
+    <color name="center_gradient">#85000000</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
@@ -82,6 +84,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="end_gradient">#f0000000</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="gray_white">#ebebeb</color>
@@ -135,6 +138,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="start_gradient">#00000000</color>
     <color name="statusBarColor">#17242e</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
@@ -144,6 +148,7 @@
     <color name="teal_button_pressed">#009D9D</color>
     <color name="teal_ripple">#8800B4B3</color>
     <color name="transparent_black">#a0000000</color>
+    <color name="transparent_black_profile_shader">#5a000000</color>
     <color name="transparent_blue">#da345065</color>
     <color name="transparent_grey">#55818181</color>
     <color name="transparent_um_grey">#d7bfe9eb</color>
@@ -360,6 +365,7 @@
     <dimen name="request_image_size">64dp</dimen>
     <dimen name="search_widget_height">48dp</dimen>
     <dimen name="sliding_view_top_margin">120dp</dimen>
+    <dimen name="toolbar_bottom_gradient_height">120dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -444,7 +450,7 @@
     <string name="drinks">~ Drinks ~</string>
     <string name="google_app_id">728728561897</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        AIzaSyCr2SyXcgzRXoOSQIFPqAyZRkUwdHk5O3Y
+        AIzaSyCpCyOq_2o12x2E_I7EgR3p0kk8Sj5saqo
     </string>
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -1458,7 +1464,8 @@
     </style>
     <style name="Card.HeaderTitleText" parent="@android:style/TextAppearance">
         <item name="android:textSize">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:textAllCaps">true</item>
