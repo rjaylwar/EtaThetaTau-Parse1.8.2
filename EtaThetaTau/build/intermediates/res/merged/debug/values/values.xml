@@ -442,8 +442,9 @@
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
     <string name="drinks">~ Drinks ~</string>
+    <string name="google_app_id">728728561897</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        YOUR_KEY_HERE
+        AIzaSyCr2SyXcgzRXoOSQIFPqAyZRkUwdHk5O3Y
     </string>
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -483,7 +484,7 @@
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/hot_light_background_blue</item>
         <item name="colorPrimaryDark">@color/hot_dark_background_blue</item>
         <item name="colorAccent">@color/hot_green_blue</item>
@@ -1799,6 +1800,20 @@
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <style name="View.SnacksSubtitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray_white</item>
+    </style>
+    <style name="View.SnacksTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
         <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>

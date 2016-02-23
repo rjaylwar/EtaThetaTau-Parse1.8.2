@@ -8,12 +8,12 @@ import butterknife.ButterKnife.ViewBinder;
 public class PhotoItemViewHolder$$ViewBinder<T extends com.rja.etaThetaTau.viewholders.PhotoItemViewHolder> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131427463, "field 'mTitle'");
-    target.mTitle = finder.castView(view, 2131427463, "field 'mTitle'");
-    view = finder.findRequiredView(source, 2131427464, "field 'mDate'");
-    target.mDate = finder.castView(view, 2131427464, "field 'mDate'");
-    view = finder.findRequiredView(source, 2131427465, "field 'mImage' and method 'onLinkClicked'");
-    target.mImage = finder.castView(view, 2131427465, "field 'mImage'");
+    view = finder.findRequiredView(source, 2131493039, "field 'mTitle'");
+    target.mTitle = finder.castView(view, 2131493039, "field 'mTitle'");
+    view = finder.findRequiredView(source, 2131493040, "field 'mDate'");
+    target.mDate = finder.castView(view, 2131493040, "field 'mDate'");
+    view = finder.findRequiredView(source, 2131493041, "field 'mImage' and method 'onLinkClicked'");
+    target.mImage = finder.castView(view, 2131493041, "field 'mImage'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -22,8 +22,8 @@ public class PhotoItemViewHolder$$ViewBinder<T extends com.rja.etaThetaTau.viewh
           target.onLinkClicked();
         }
       });
-    view = finder.findRequiredView(source, 2131427466, "field 'mDescription'");
-    target.mDescription = finder.castView(view, 2131427466, "field 'mDescription'");
+    view = finder.findRequiredView(source, 2131493042, "field 'mDescription'");
+    target.mDescription = finder.castView(view, 2131493042, "field 'mDescription'");
   }
 
   @Override public void unbind(T target) {

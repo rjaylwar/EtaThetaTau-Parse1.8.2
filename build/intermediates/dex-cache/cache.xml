@@ -2,123 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/rjaylward/Library/Android/sdk/build-tools/23.0.2/renderscript/lib/renderscript-v8.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="762016371811e15a66e97cf27f3e852bf287aaf3">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/renderscript-v8_d1fa2ac50e3b4e984956b7685f9ec75ec5342aca.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/butterknife-7.0.1_72c46ab50e6de9d78d14cd345277e9f252e12191.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_532f345b70cf89a3b988b41e003add8acbe5e667.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_32b91e8760467fa5eb1f71e9fa01bd9df7ae2b0e.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/gson-2.4_d2fcf995c1f80907f0bde96d34d117ac2aa7417c.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_42e179ebe89eea3e6dd73de0a2bddbb832180fc1.jar" />
-    </item>
-    <item
         jar="/Users/rjaylward/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
         <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_c6be98a65fdcd7ac7923fd794ebf2543ba4fe6e8.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/library-1.0.19_32f63d9ad88a7896d273b86c794718df509b872a.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/glide-3.6.1_1f0a83f4871cad3c645e13a2f6164354497f409c.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/percent/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1badcc3d0af60cfcab190ea7b78d060e824cfb1e">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-percent-23.1.1_ab0800aa03051bd8070b42c90167c68861b34af8.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/customtabs/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="91514e250eabdb61165eafc821c54bd95c218c47">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-customtabs-23.1.1_e8089be37bb51a2aa2b7491548e761c8bb8271e8.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/libs/ParseCrashReporting-1.8.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2_aff3a8cafa04790ec3f1b469fbe715aa485b1730.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_ca9cfea6362d7dbf4b6348522482d462f6626dec.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_4e426c365e1b281e716f7396472d0e3df86ab4df.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_0013bd14802184b13d099b9ed37f4ec61a08f853.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/libs/Parse-1.8.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/Parse-1.8.2_8a0ac6cf5c175d8984fe40d9f7b0196ac92244ac.jar" />
-    </item>
-    <item
-        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_bb70529674b9fa6098f2c6ba37305065eb55680b.jar" />
     </item>
     <item
         jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/jars/libs/internal_impl-23.1.1.jar"
@@ -128,11 +16,298 @@
         <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_66891ee53eb645e363906e38f65f3e83d07809ca.jar" />
     </item>
     <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_0013bd14802184b13d099b9ed37f4ec61a08f853.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_6859db8cabcb37706082b91f8a35d443bb3dcfc7.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-8.4.0_af767e974112fc79482cc9af3f5f8576c8b079bd.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_532f345b70cf89a3b988b41e003add8acbe5e667.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.4.0_4e3dbea3d343e1865eb6dfc77dd4697a09f96f09.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/percent/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1badcc3d0af60cfcab190ea7b78d060e824cfb1e">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-percent-23.1.1_ab0800aa03051bd8070b42c90167c68861b34af8.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_69e54c0576c78592d1419de24aea3ee9dba72949.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/libs/Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/Parse-1.8.2_8a0ac6cf5c175d8984fe40d9f7b0196ac92244ac.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_97b988e410ebb6c0ebc23349c87eb7a7b9c9bcd6.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-8.4.0_be5bd0955afbbfdf3c8f42e5b47c3e7f705342f4.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Library/Android/sdk/build-tools/23.0.2/renderscript/lib/renderscript-v8.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="762016371811e15a66e97cf27f3e852bf287aaf3">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/renderscript-v8_d1fa2ac50e3b4e984956b7685f9ec75ec5342aca.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-8.4.0_6e564b0f001abab9655329232ea4667d981155c1.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-8.4.0_e3f23ac9c28bbb3093f41139c0e959ec434d8cf6.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-8.4.0_cdbddd9eb8a600e8481cee1e3f63d7ff16a0b22d.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_bb70529674b9fa6098f2c6ba37305065eb55680b.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_ca9cfea6362d7dbf4b6348522482d462f6626dec.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/libs/ParseCrashReporting-1.8.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2_aff3a8cafa04790ec3f1b469fbe715aa485b1730.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-8.4.0_3152e7afc660afd192c5b163ff5c661473eab57c.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/glide-3.6.1_1f0a83f4871cad3c645e13a2f6164354497f409c.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/customtabs/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="91514e250eabdb61165eafc821c54bd95c218c47">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-customtabs-23.1.1_e8089be37bb51a2aa2b7491548e761c8bb8271e8.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_e0e6893a1fe41cb9ea933314b6c63b2d64fd2591.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.4.0_846609ae24bb49f1e7dbdf27708709857de20a4d.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-8.4.0_74140b2356508256cd53a87b3c0825742d57d5a1.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_4e426c365e1b281e716f7396472d0e3df86ab4df.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_dc27238d29f223ddfac15715cbbc0d8c5c2ab8f0.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/library-1.0.19_32f63d9ad88a7896d273b86c794718df509b872a.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-8.4.0_fb7cf520e8112b9a02455d1f8186d989e9c34689.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_42e179ebe89eea3e6dd73de0a2bddbb832180fc1.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/butterknife-7.0.1_72c46ab50e6de9d78d14cd345277e9f252e12191.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_80cdb9b27a8a2e05bcace35e8f78d91b17c18139.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.4.0_2ddc945bd534cfa1d589f2f389b1afe79655f774.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-8.4.0_6ef86982c38d7ea8119d5f4aba47a576e32cb7e6.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-8.4.0_0e27b7532b2d4acf5e719ddfd36bf93579d1c6d7.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-8.4.0_8992c5d4a1cc661b41bcc7bd4b8401da5e2c23e0.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_32b91e8760467fa5eb1f71e9fa01bd9df7ae2b0e.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-8.4.0_7956622e1b89a63be4e7e8acfe37d26e7383b844.jar" />
+    </item>
+    <item
         jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
         <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.1.1_4d02081b9a21abf12e7782792f78b10c032ba937.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.4.0_902ea91eae0a898a9d6881ac8519a3544a6a46bc.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_e4108468786ca371f43c3763df2394650cf20dc1.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.4.0_360fec5ca048701c2e6f3971fc0066ed4cd819ea.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-8.4.0_c3e646373bf2110acde1a5a3678111b0c43695bd.jar" />
+    </item>
+    <item
+        jar="/Users/rjaylward/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/pre-dexed/debug/gson-2.4_d2fcf995c1f80907f0bde96d34d117ac2aa7417c.jar" />
     </item>
 
 </items>

@@ -23,13 +23,15 @@ import java.util.ArrayList;
 /**
  * Created by rjaylward on 2/7/16
  */
-public class HotFeedAdapter extends RecyclerView.Adapter implements OnHotFeedItemClickListener, OnLinkClickedListener {
+public class HotFeedAdapter extends RecyclerView.Adapter implements OnLinkClickedListener {
 
     private ArrayList<HotFeedItem> mItems = new ArrayList<>();
     private BaseActivity mActivity;
+    private OnHotFeedItemClickListener mItemClickListener;
 
-    public HotFeedAdapter(BaseActivity activity) {
-       mActivity = activity;
+    public HotFeedAdapter(BaseActivity activity, OnHotFeedItemClickListener listener) {
+        mActivity = activity;
+        mItemClickListener = listener;
     }
 
     public void loadItems(ArrayList<HotFeedItem> items) {
@@ -56,7 +58,7 @@ public class HotFeedAdapter extends RecyclerView.Adapter implements OnHotFeedIte
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if(holder instanceof TonightViewHolder)
-            ((TonightViewHolder) holder).load(mItems.get(position), mActivity, this);
+            ((TonightViewHolder) holder).load(mItems.get(position), mActivity, mItemClickListener);
         if(holder instanceof PhotoItemViewHolder)
             ((PhotoItemViewHolder) holder).load(mItems.get(position), mActivity, this);
         if(holder instanceof LinkItemViewHolder)
@@ -90,11 +92,6 @@ public class HotFeedAdapter extends RecyclerView.Adapter implements OnHotFeedIte
         }
         else
             return POST;
-    }
-
-    @Override
-    public void onHotFeedItemClick(HotFeedItem item) {
-
     }
 
     @Override

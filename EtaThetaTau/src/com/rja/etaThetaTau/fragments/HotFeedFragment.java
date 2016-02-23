@@ -6,9 +6,11 @@ import android.support.v7.widget.LinearLayoutManager;
 
 import com.android.volley.VolleyError;
 import com.rja.etaThetaTau.R;
+import com.rja.etaThetaTau.activities.TonightDetailsActivity;
 import com.rja.etaThetaTau.adapters.HotFeedAdapter;
 import com.rja.etaThetaTau.api.ApiHelper;
 import com.rja.etaThetaTau.base.BaseFragment;
+import com.rja.etaThetaTau.interfaces.OnHotFeedItemClickListener;
 import com.rja.etaThetaTau.objects.HotFeedItem;
 import com.rja.etaThetaTau.objects.HotFeedItemResponse;
 import com.rja.etaThetaTau.views.LoadMoreRecyclerView;
@@ -21,7 +23,7 @@ import butterknife.Bind;
 /**
  * Created by rjaylward on 2/11/16
  */
-public class HotFeedFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
+public class HotFeedFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener, OnHotFeedItemClickListener {
 
     @Bind(R.id.recycler_view)
     LoadMoreRecyclerView mRecyclerView;
@@ -37,7 +39,7 @@ public class HotFeedFragment extends BaseFragment implements SwipeRefreshLayout.
 
     @Override
     protected void prepareFragment(Bundle bundle) {
-        mFeedAdapter = new HotFeedAdapter(mActivity);
+        mFeedAdapter = new HotFeedAdapter(mActivity, this);
     }
 
     @Override
@@ -72,5 +74,15 @@ public class HotFeedFragment extends BaseFragment implements SwipeRefreshLayout.
     @Override
     public void onRefresh() {
         getFeedItems();
+    }
+
+    @Override
+    public void onHotFeedItemClick(HotFeedItem item) {
+//        mActivity.getSupportFragmentManager().beginTransaction()
+//                .add(R.id.root, TonightDetailsFragment.create(item))
+//                .addToBackStack(TonightDetailsFragment.class.getSimpleName())
+//                .commit();
+
+        mActivity.startActivity(TonightDetailsActivity.createIntent(getContext(), item));
     }
 }

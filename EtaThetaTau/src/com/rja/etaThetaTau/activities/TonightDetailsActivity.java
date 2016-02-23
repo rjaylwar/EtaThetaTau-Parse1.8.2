@@ -1,5 +1,6 @@
 package com.rja.etaThetaTau.activities;
 
+import android.content.Context;
 import android.content.Intent;
 
 import com.rja.etaThetaTau.base.BaseFragActivity;
@@ -12,8 +13,8 @@ import com.rja.etaThetaTau.objects.HotFeedItem;
  */
 public class TonightDetailsActivity extends BaseFragActivity {
 
-    public static Intent createIntent(HotFeedItem hotFeedItem) {
-        Intent intent = new Intent();
+    public static Intent createIntent(Context context, HotFeedItem hotFeedItem) {
+        Intent intent = new Intent(context, TonightDetailsActivity.class);
         intent.putExtra(HotFeedItem.class.getCanonicalName(), hotFeedItem);
 
         return intent;

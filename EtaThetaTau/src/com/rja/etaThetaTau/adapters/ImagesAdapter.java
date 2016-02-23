@@ -25,6 +25,7 @@ public class ImagesAdapter extends RecyclerView.Adapter implements OnClickAtInde
 
     public void load(ArrayList<String> imageUrls) {
         mUrls = imageUrls;
+        notifyDataSetChanged();
     }
 
     @Override

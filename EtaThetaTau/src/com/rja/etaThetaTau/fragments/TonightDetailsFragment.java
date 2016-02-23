@@ -79,6 +79,7 @@ public class TonightDetailsFragment extends BaseFragment {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         mImagesAdapter = new ImagesAdapter(getContext());
         mRecyclerView.setAdapter(mImagesAdapter);
+        mRecyclerView.setNestedScrollingEnabled(false);
 
         HotFeedItem hotFeedItem = getArguments().getParcelable(HotFeedItem.class.getCanonicalName());
 
@@ -101,7 +102,7 @@ public class TonightDetailsFragment extends BaseFragment {
     private void loadSnacksView(HotFeedItem hotFeedItem) {
         mThreeByTwoTextView.setLeftText("Sweet", hotFeedItem.getSnacks().getSweet());
         mThreeByTwoTextView.setCenterText("Salty", hotFeedItem.getSnacks().getSalty());
-        mThreeByTwoTextView.setLeftText("Drinks", hotFeedItem.getSnacks().getDrinks());
+        mThreeByTwoTextView.setRightText("Drinks", hotFeedItem.getSnacks().getDrinks());
     }
 
     private void loadLocation(final Location location) {
