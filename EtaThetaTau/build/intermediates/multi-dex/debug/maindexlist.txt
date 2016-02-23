@@ -262,6 +262,7 @@ com/google/android/gms/wearable/CapabilityApi$GetCapabilityResult.class
 com/google/android/gms/internal/zzig.class
 com/google/android/gms/internal/zzbs.class
 com/google/android/gms/nearby/messages/internal/UnsubscribeRequest.class
+com/rja/etaThetaTau/util/Print.class
 com/google/android/gms/common/api/internal/zzb.class
 com/google/ads/mediation/MediationServerParameters$Parameter.class
 com/google/android/gms/ads/internal/purchase/zzd.class
@@ -381,8 +382,8 @@ com/google/android/gms/ads/internal/formats/zzk.class
 android/support/design/widget/MathUtils.class
 android/support/v8/renderscript/RSDriverException.class
 com/google/android/gms/ads/internal/overlay/zzd$zza.class
-com/google/android/gms/cast/Cast$CastApi$zza.class
 android/support/v4/app/NavUtils.class
+com/google/android/gms/cast/Cast$CastApi$zza.class
 com/google/android/gms/internal/zzlf$zza.class
 com/google/android/gms/internal/zzia.class
 android/support/v4/view/ViewCompatJellybeanMr2.class
@@ -764,9 +765,9 @@ com/google/android/gms/common/ConnectionResult.class
 com/bumptech/glide/DrawableRequestBuilder.class
 com/google/android/gms/internal/zzjr.class
 butterknife/ButterKnife.class
+com/google/gson/JsonNull.class
 com/parse/EventuallyPin.class
 com/parse/ParseRole.class
-com/google/gson/JsonNull.class
 android/support/v8/renderscript/Float2.class
 android/support/design/widget/AppBarLayout$Behavior$1.class
 com/rja/etaThetaTau/activities/HotMainActivity.class
@@ -852,8 +853,8 @@ com/parse/NotificationCompat$Builder$Style.class
 com/google/android/gms/internal/zzff.class
 com/google/android/gms/ads/internal/overlay/zzn.class
 com/google/android/gms/common/api/Scope.class
-com/google/android/gms/internal/zzge.class
 com/google/android/gms/wallet/fragment/WalletFragmentStyle$Dimension.class
+com/google/android/gms/internal/zzge.class
 android/support/v4/widget/CursorAdapter.class
 com/parse/PushRouter.class
 com/google/android/gms/auth/api/signin/internal/zzq.class
@@ -913,8 +914,8 @@ com/google/android/gms/location/places/PlaceFilter.class
 com/google/android/gms/internal/zzjv.class
 com/parse/ServiceUtils.class
 com/google/android/gms/internal/zzgy.class
-com/google/android/gms/internal/zzcy.class
 android/support/v4/media/VolumeProviderCompat.class
+com/google/android/gms/internal/zzcy.class
 com/google/android/gms/internal/zzjj.class
 com/google/android/gms/measurement/AppMeasurementService$1.class
 com/google/android/gms/internal/zzeu.class

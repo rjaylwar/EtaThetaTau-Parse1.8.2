@@ -6,6 +6,7 @@ import android.content.Intent;
 import com.rja.etaThetaTau.base.BaseFragActivity;
 import com.rja.etaThetaTau.base.BaseFragment;
 import com.rja.etaThetaTau.fragments.ImagesFragment;
+import com.rja.etaThetaTau.util.Print;
 
 import java.util.ArrayList;
 
@@ -18,6 +19,8 @@ public class ImagesActivity extends BaseFragActivity {
         Intent intent = new Intent(context, ImagesActivity.class);
         intent.putExtra(ImagesFragment.IMAGES, urls);
         intent.putExtra(ImagesFragment.INDEX, index);
+
+        Print.log("images", index, urls);
 
         return intent;
     }

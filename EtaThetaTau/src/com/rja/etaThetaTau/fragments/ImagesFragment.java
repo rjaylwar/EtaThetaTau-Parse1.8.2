@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import com.rja.etaThetaTau.R;
 import com.rja.etaThetaTau.adapters.BigImagesAdapter;
 import com.rja.etaThetaTau.base.BaseFragment;
+import com.rja.etaThetaTau.util.Print;
 
 import java.util.ArrayList;
 
@@ -68,6 +69,8 @@ public class ImagesFragment extends BaseFragment {
         mRecyclerView.setAdapter(mAdapter);
 
         mAdapter.load(getArguments().getStringArrayList(IMAGES));
-        mRecyclerView.scrollToPosition(getArguments().getInt(INDEX));
+        mRecyclerView.getLayoutManager().scrollToPosition(getArguments().getInt(INDEX));
+
+        Print.log("images", getArguments().getInt(INDEX), getArguments().getStringArrayList(IMAGES));
     }
 }

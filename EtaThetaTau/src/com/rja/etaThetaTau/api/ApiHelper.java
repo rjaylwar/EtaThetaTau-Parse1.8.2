@@ -3,6 +3,7 @@ package com.rja.etaThetaTau.api;
 import android.util.Log;
 
 import com.rja.etaThetaTau.objects.HotFeedItemResponse;
+import com.rja.etaThetaTau.objects.ScriptsResponse;
 import com.rja.etaThetaTau.objects.TonightResponse;
 import com.rja.etaThetaTau.volley.GsonVolleyRequester;
 import com.rja.etaThetaTau.volley.VolleyContext;
@@ -34,6 +35,14 @@ public class ApiHelper {
         Log.d("get all feed items", url);
 
         GsonVolleyRequester<HotFeedItemResponse> volleyRequester = new GsonVolleyRequester<>(mContext, HotFeedItemResponse.class);
+        volleyRequester.makeGetRequest(mContext, url, uiListener);
+    }
+
+    public void getScripts(VolleyRequestListener<ScriptsResponse> uiListener) {
+        String url = FIRE_BASE_URL + "scripts.json";
+        Log.d("get all feed items", url);
+
+        GsonVolleyRequester<ScriptsResponse> volleyRequester = new GsonVolleyRequester<>(mContext, ScriptsResponse.class);
         volleyRequester.makeGetRequest(mContext, url, uiListener);
     }
 //

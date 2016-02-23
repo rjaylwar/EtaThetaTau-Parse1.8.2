@@ -9,22 +9,22 @@ public class TonightDetailsFragment$$ViewBinder<T extends com.rja.etaThetaTau.fr
     super.bind(finder, target, source);
 
     View view;
-    view = finder.findRequiredView(source, 2131493161, "field 'mToolbarBackdrop'");
-    target.mToolbarBackdrop = finder.castView(view, 2131493161, "field 'mToolbarBackdrop'");
-    view = finder.findRequiredView(source, 2131493097, "field 'mThreeByTwoTextView'");
-    target.mThreeByTwoTextView = finder.castView(view, 2131493097, "field 'mThreeByTwoTextView'");
-    view = finder.findRequiredView(source, 2131493099, "field 'mMessageView'");
-    target.mMessageView = finder.castView(view, 2131493099, "field 'mMessageView'");
-    view = finder.findRequiredView(source, 2131493101, "field 'mReminderView'");
-    target.mReminderView = finder.castView(view, 2131493101, "field 'mReminderView'");
-    view = finder.findRequiredView(source, 2131493103, "field 'mThemeView'");
-    target.mThemeView = finder.castView(view, 2131493103, "field 'mThemeView'");
-    view = finder.findRequiredView(source, 2131493106, "field 'mLocationView'");
-    target.mLocationView = finder.castView(view, 2131493106, "field 'mLocationView'");
-    view = finder.findRequiredView(source, 2131493104, "field 'mRecyclerView'");
-    target.mRecyclerView = finder.castView(view, 2131493104, "field 'mRecyclerView'");
-    view = finder.findRequiredView(source, 2131493107, "field 'mMapView'");
-    target.mMapView = finder.castView(view, 2131493107, "field 'mMapView'");
+    view = finder.findRequiredView(source, 2131493162, "field 'mToolbarBackdrop'");
+    target.mToolbarBackdrop = finder.castView(view, 2131493162, "field 'mToolbarBackdrop'");
+    view = finder.findRequiredView(source, 2131493098, "field 'mThreeByTwoTextView'");
+    target.mThreeByTwoTextView = finder.castView(view, 2131493098, "field 'mThreeByTwoTextView'");
+    view = finder.findRequiredView(source, 2131493100, "field 'mMessageView'");
+    target.mMessageView = finder.castView(view, 2131493100, "field 'mMessageView'");
+    view = finder.findRequiredView(source, 2131493102, "field 'mReminderView'");
+    target.mReminderView = finder.castView(view, 2131493102, "field 'mReminderView'");
+    view = finder.findRequiredView(source, 2131493104, "field 'mThemeView'");
+    target.mThemeView = finder.castView(view, 2131493104, "field 'mThemeView'");
+    view = finder.findRequiredView(source, 2131493107, "field 'mLocationView'");
+    target.mLocationView = finder.castView(view, 2131493107, "field 'mLocationView'");
+    view = finder.findRequiredView(source, 2131493105, "field 'mRecyclerView'");
+    target.mRecyclerView = finder.castView(view, 2131493105, "field 'mRecyclerView'");
+    view = finder.findRequiredView(source, 2131493108, "field 'mMapView'");
+    target.mMapView = finder.castView(view, 2131493108, "field 'mMapView'");
   }
 
   @Override public void unbind(T target) {

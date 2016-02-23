@@ -1,6 +1,7 @@
 package com.rja.etaThetaTau.objects;
 
 import android.content.ContentValues;
+import android.database.Cursor;
 
 import com.google.gson.annotations.SerializedName;
 import com.rja.etaThetaTau.database.Table;
@@ -51,5 +52,15 @@ public class Script {
         cv.put(Table.Scripts.TITLE, mHtmlScript);
 
         return cv;
+    }
+
+    public static Script fromCursor(Cursor cursor) {
+        Script script = new Script();
+
+        script.setHtmlScript(cursor.getString(cursor.getColumnIndexOrThrow(Table.Scripts.HTML_SCRIPT)));
+        script.setTitle(cursor.getString(cursor.getColumnIndexOrThrow(Table.Scripts.TITLE)));
+        script.setTag(cursor.getString(cursor.getColumnIndexOrThrow(Table.Scripts.TAG)));
+
+        return script;
     }
 }

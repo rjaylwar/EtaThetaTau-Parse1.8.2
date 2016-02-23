@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.rja.etaThetaTau.objects.HotFeedItem;
+import com.rja.etaThetaTau.objects.Script;
 
 import java.util.ArrayList;
 
@@ -75,5 +76,38 @@ public class DatabaseHelper {
 
     public synchronized void deleteHotFeedItem(String id) {
         mContentResolver.delete(Table.HotFeedItems.CONTENT_URI, Table.HotFeedItems.ID + " == '" + id + "'", null);
+    }
+
+    public void addScripts(ArrayList<Script> scripts) {
+        ArrayList<ContentValues> valuesArray = new ArrayList<>();
+
+        for(Script script : scripts) {
+            valuesArray.add(script.toContentValues());
+        }
+
+        mContentResolver.bulkInsert(Table.HotFeedItems.CONTENT_URI, valuesArray.toArray(new ContentValues[scripts.size()]));
+    }
+
+    public ArrayList<Script> getScripts() {
+        ArrayList<Script> scripts = new ArrayList<>();
+        String selectQuery = "SELECT * FROM " + Table.Scripts.TABLE_NAME + " ORDER BY " + Table.Scripts.TAG + " DESC";
+        SQLiteDatabase db = mOpenDatabaseHelper.getWritableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+        try {
+            if(cursor.moveToFirst()) {
+                do {
+                    Script script = Script.fromCursor(cursor);
+
+                    if(script != null)
+                        scripts.add(script);
+
+                } while (cursor.moveToNext());
+            }
+        } finally {
+            if(cursor != null)
+                cursor.close();
+        }
+
+        return scripts;
     }
 }
