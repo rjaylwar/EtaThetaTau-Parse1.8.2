@@ -2,6 +2,9 @@ package com.rja.etaThetaTau.activities;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -83,4 +86,27 @@ public class ScriptsFragment extends BaseFragment {
         mWebView.loadData(scriptData, MIME_TYPE, ENCODING);
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+
+        inflater.inflate(R.menu.script_menu, menu);
+    }
+
+    @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        super.onPrepareOptionsMenu(menu);
+
+        menu.clear();
+
+        for(int i = 0; i < mScripts.size(); i++) {
+            menu.add(i, i, i, mScripts.get(i).getTag());
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        loadWebViewWithHtml(mScripts.get(item.getGroupId()).getHtmlScript());
+        return super.onOptionsItemSelected(item);
+    }
 }
