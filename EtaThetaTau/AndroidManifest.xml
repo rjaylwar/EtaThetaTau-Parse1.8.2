@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.rja.etaThetaTau"
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          android:versionCode="9"
-          android:versionName="2.0.0">
+<manifest
+    package="com.rja.etaThetaTau"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="9"
+    android:versionName="2.0.0"
+    xmlns:style="http://schemas.android.com/apk/res-auto">
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -96,7 +98,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.TonightDetailsActivity"/>
+        <activity
+            android:name=".activities.TonightDetailsActivity"
+            android:theme="@style/Theme.Main.TransparentStatus"/>
 
         <service android:name="com.parse.PushService"/>
 

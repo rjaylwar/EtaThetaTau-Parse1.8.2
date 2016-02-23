@@ -65,7 +65,7 @@ public class PhotoItemViewHolder extends RecyclerView.ViewHolder {
 
     @OnClick(R.id.pvh_image)
     void onLinkClicked() {
-        if(mListener != null)
+        if(mListener != null && mItem.getLink() != null)
             mListener.onLinkClicked(mItem.getLink().getUrl());
     }
 }

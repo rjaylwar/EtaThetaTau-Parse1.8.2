@@ -1,20 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:2:1-148:12
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:2:1-152:12
+	xmlns:style
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:7:5-58
 	xmlns:android
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:3:11-69
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:4:5-63
 	package
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:2:11-40
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:3:5-34
 	android:versionName
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:5:11-38
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:6:5-32
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:4:11-34
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:5:5-28
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 uses-sdk
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:7:5-9:40
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:9:5-11:40
 MERGED from [com.android.support:multidex:1.0.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v13:23.1.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:23.1.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
@@ -156,15 +158,15 @@ MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/rjaylward/G
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.1.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:9:9-38
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:11:9-38
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:8:9-35
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:10:9-35
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 		INJECTED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:11:5-66
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:13:5-66
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:19:5-67
@@ -176,9 +178,9 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/rjaylward/G
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:11:22-64
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:12:5-78
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:14:5-78
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
@@ -189,54 +191,54 @@ MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/rjay
 MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:19:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:12:22-76
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:13:5-67
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:15:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:13:22-65
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:15:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:14:5-65
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:16:5-65
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:14:22-63
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:16:22-63
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:15:5-70
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:17:5-70
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:15:22-68
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:17:22-68
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:16:5-81
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:18:5-81
 MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:21:5-82
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:16:22-79
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:18:22-79
 permission#com.rja.etaThetaTau.permission.C2D_MESSAGE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:22:5-24:46
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:24:5-26:46
 	android:protectionLevel
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:24:9-44
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:26:9-44
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:23:9-66
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:25:9-66
 uses-permission#com.rja.etaThetaTau.permission.C2D_MESSAGE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:26:5-81
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:28:5-81
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:26:22-79
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:28:22-79
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:33:5-78
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:35:5-78
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:33:22-76
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:35:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:35:5-80
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:37:5-80
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:35:22-78
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:37:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:36:5-74
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:38:5-74
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:36:22-72
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:38:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:37:5-79
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:39:5-79
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:37:22-77
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:39:22-77
 application
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:39:5-146:19
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:41:5-150:19
 MERGED from [com.android.support:support-v13:23.1.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:customtabs:23.1.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/customtabs/23.1.1/AndroidManifest.xml:22:5-20
@@ -348,167 +350,169 @@ MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/rjaylwa
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:43:9-41
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:45:9-41
 	android:allowBackup
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:41:9-35
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:43:9-35
 	android:icon
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:42:9-45
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:44:9-45
 	android:theme
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:44:9-42
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:46:9-42
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:40:9-41
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:42:9-41
 meta-data#com.parse.APPLICATION_ID
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:45:9-47:71
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:47:9-49:71
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:46:13-52
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:48:13-52
 	android:value
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:47:13-69
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:49:13-69
 meta-data#com.parse.CLIENT_KEY
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:48:9-50:71
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:50:9-52:71
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:49:13-48
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:51:13-48
 	android:value
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:50:13-69
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:52:13-69
 activity#com.rja.etaThetaTau.TabsActivity
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:52:9-58:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:54:9-60:20
 	android:screenOrientation
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:57:13-49
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:59:13-49
 	android:label
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:55:13-56
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:57:13-56
 	android:hardwareAccelerated
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:54:13-47
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:56:13-47
 	android:parentActivityName
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:56:13-56
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:58:13-56
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:53:13-41
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:55:13-41
 activity#com.rja.etaThetaTau.SongsDetailActivity
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:59:9-68:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:61:9-70:20
 	android:screenOrientation
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:64:13-49
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:66:13-49
 	android:label
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:62:13-64
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:64:13-64
 	android:hardwareAccelerated
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:61:13-47
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:63:13-47
 	android:parentActivityName
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:63:13-55
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:65:13-55
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:60:13-48
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:62:13-48
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:65:13-67:67
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:67:13-69:67
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:66:17-63
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:68:17-63
 	android:value
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:67:17-65
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:69:17-65
 activity#com.rja.etaThetaTau.LyricsDetailActivity
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:69:9-78:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:71:9-80:20
 	android:screenOrientation
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:74:13-49
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:76:13-49
 	android:label
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:72:13-65
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:74:13-65
 	android:hardwareAccelerated
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:71:13-47
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:73:13-47
 	android:parentActivityName
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:73:13-55
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:75:13-55
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:70:13-49
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:72:13-49
 activity#com.rja.etaThetaTau.LoginActivity
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:79:9-88:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:81:9-90:20
 	android:screenOrientation
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:82:13-49
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:84:13-49
 	android:label
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:81:13-42
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:83:13-42
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:80:13-42
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:82:13-42
 activity#com.rja.etaThetaTau.activities.HotMainActivity
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:89:9-97:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:91:9-99:20
 	android:screenOrientation
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:91:13-49
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:93:13-49
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:90:13-55
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:92:13-55
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:92:13-96:29
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:94:13-98:29
 action#android.intent.action.MAIN
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:93:17-68
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:95:17-68
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:93:25-66
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:95:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:95:17-76
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:97:17-76
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:95:27-74
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:97:27-74
 activity#com.rja.etaThetaTau.activities.TonightDetailsActivity
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:99:9-70
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:101:9-103:66
+	android:theme
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:103:13-64
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:99:19-68
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:102:13-62
 service#com.parse.PushService
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:101:9-56
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:105:9-56
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:101:18-54
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:105:18-54
 receiver#com.parse.ParseBroadcastReceiver
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:103:9-108:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:107:9-112:20
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:103:19-66
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:107:19-66
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:104:13-107:29
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:108:13-111:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:105:17-78
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:109:17-78
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:105:25-76
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:109:25-76
 action#android.intent.action.USER_PRESENT
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:106:17-76
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:110:17-76
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:106:25-74
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:110:25-74
 receiver#com.parse.GcmBroadcastReceiver
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:109:9-119:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:113:9-123:20
 	android:permission
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:111:13-73
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:115:13-73
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:110:13-58
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:114:13-58
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.rja.etaThetaTau
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:112:13-118:29
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:116:13-122:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:113:17-80
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:117:17-80
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:113:25-78
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:117:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:114:17-85
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:118:17-85
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:114:25-83
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:118:25-83
 category#com.rja.etaThetaTau
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:117:17-63
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:121:17-63
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:117:27-61
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:121:27-61
 receiver#com.parse.ParsePushBroadcastReceiver
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:120:9-128:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:124:9-132:20
 	android:exported
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:122:13-37
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:126:13-37
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:121:13-64
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:125:13-64
 intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:123:13-127:29
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:127:13-131:29
 action#com.parse.push.intent.RECEIVE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:124:17-71
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:128:17-71
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:124:25-69
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:128:25-69
 action#com.parse.push.intent.DELETE
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:125:17-70
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:129:17-70
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:125:25-68
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:129:25-68
 action#com.parse.push.intent.OPEN
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:126:17-68
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:130:17-68
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:126:25-66
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:130:25-66
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:138:9-140:54
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:142:9-144:54
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:139:13-58
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:143:13-58
 	android:value
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:140:13-52
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:144:13-52
 activity#com.rja.etaThetaTau.activities.MapsActivity
-ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:142:9-145:20
+ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:146:9-149:20
 	android:label
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:144:13-56
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:148:13-56
 	android:name
-		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:143:13-52
+		ADDED from /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/AndroidManifest.xml:147:13-52
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:26:9-29:64
 	android:configChanges

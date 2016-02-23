@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
     package="com.rja.etaThetaTau"
     android:versionCode="9"
     android:versionName="2.0.0" >
@@ -98,7 +99,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.rja.etaThetaTau.activities.TonightDetailsActivity" />
+        <activity
+            android:name="com.rja.etaThetaTau.activities.TonightDetailsActivity"
+            android:theme="@style/Theme.Main.TransparentStatus" />
 
         <service android:name="com.parse.PushService" />
 

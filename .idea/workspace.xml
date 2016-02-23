@@ -30,139 +30,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddbb5286-092e-4751-8a9b-bc56114db115" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/objects/HotFeedItem$Link.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/objects/HotFeedItem$Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/objects/HotFeedItem$Snacks.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/views/AudioPlayerView.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/views/AudioPlayerView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/views/BannerView.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/views/BannerView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/base/BaseFragActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/base/BaseFragActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/database/DatabaseHelper.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/database/DatabaseHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/views/EmptyListView.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/views/EmptyListView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EtaThetaTau/res/drawable/ic_menu_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/base/BaseFragment.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/base/BaseFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/outputs/apk/EtaThetaTau-debug-unaligned.apk" afterPath="$PROJECT_DIR$/EtaThetaTau/build/outputs/apk/EtaThetaTau-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/outputs/apk/EtaThetaTau-debug.apk" afterPath="$PROJECT_DIR$/EtaThetaTau/build/outputs/apk/EtaThetaTau-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/adapters/HotFeedAdapter.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/adapters/HotFeedAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment$$ViewBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment$1.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/objects/HotFeedItem.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/objects/HotFeedItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/HotLyricsAdapter.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/HotLyricsAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/activities/HotMainActivity$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/activities/HotMainActivity$$ViewBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/activities/HotMainActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/activities/HotMainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/LinkItemViewHolder$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/LinkItemViewHolder$$ViewBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/LinkItemViewHolder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/LinkItemViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/ImageViewHolder$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/ImageViewHolder$$ViewBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/ImageViewHolder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/ImageViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/adapters/ImagesAdapter.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/adapters/ImagesAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LoginActivity$2.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LoginActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LyricsAdapter.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LyricsAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LyricsDetailActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/LyricsDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/MainActivity$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/MainActivity$$ViewBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/MainActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/Parse-1.8.2_8a0ac6cf5c175d8984fe40d9f7b0196ac92244ac.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/Parse-1.8.2_8a0ac6cf5c175d8984fe40d9f7b0196ac92244ac.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2_aff3a8cafa04790ec3f1b469fbe715aa485b1730.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2_aff3a8cafa04790ec3f1b469fbe715aa485b1730.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder$$ViewBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$attr.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/percent/R$attr.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/percent/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$attr.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$attr.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$bool.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$bool.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$color.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$color.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$dimen.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$dimen.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$dimen.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/mediarouter/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/mediarouter/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/ads/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/ads/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/analytics/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/analytics/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appstate/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appstate/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/auth/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/auth/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/cast/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/cast/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/drive/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/drive/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/fitness/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/fitness/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/games/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/games/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/gcm/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/gcm/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/identity/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/identity/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/location/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/location/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/maps/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/maps/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/measurement/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/measurement/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/nearby/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/nearby/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/panorama/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/panorama/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/plus/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/plus/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/vision/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/vision/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wallet/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wallet/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wearable/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wearable/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$drawable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$id.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$integer.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$integer.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$layout.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$menu.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$raw.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/ads/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/ads/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/analytics/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/analytics/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appstate/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/appstate/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/auth/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/auth/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/base/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/base/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/cast/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/cast/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/drive/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/drive/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/fitness/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/fitness/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/games/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/games/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/gcm/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/gcm/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/identity/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/identity/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/location/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/location/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/maps/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/maps/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/measurement/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/measurement/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/nearby/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/nearby/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/panorama/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/panorama/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/plus/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/plus/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/vision/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/vision/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wallet/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wallet/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wearable/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/google/android/gms/wearable/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$string.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$style.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$style.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$styleable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/design/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/percent/R$styleable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/percent/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$styleable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/cardview/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$styleable.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$2.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$3.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$4.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$5.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$6.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/ScriptFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/helpers/SlidingPaneHelper.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/helpers/SlidingPaneHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsArrayAdapter.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsDetailActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsFragment$1.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsFragment$2.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsFragment.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/SongsFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/TabsActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/TabsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/TonightFragment.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/TonightFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/TonightViewHolder$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/TonightViewHolder$$ViewBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/TonightViewHolder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/TonightViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/base/ToolbarActivity.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/base/ToolbarActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_42e179ebe89eea3e6dd73de0a2bddbb832180fc1.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_42e179ebe89eea3e6dd73de0a2bddbb832180fc1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/butterknife-7.0.1_72c46ab50e6de9d78d14cd345277e9f252e12191.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/butterknife-7.0.1_72c46ab50e6de9d78d14cd345277e9f252e12191.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment$$ViewBinder.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment$$ViewBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment$1.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment.class" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_ca9cfea6362d7dbf4b6348522482d462f6626dec.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_ca9cfea6362d7dbf4b6348522482d462f6626dec.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_4e426c365e1b281e716f7396472d0e3df86ab4df.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_4e426c365e1b281e716f7396472d0e3df86ab4df.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-customtabs-23.1.1_e8089be37bb51a2aa2b7491548e761c8bb8271e8.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-customtabs-23.1.1_e8089be37bb51a2aa2b7491548e761c8bb8271e8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_32b91e8760467fa5eb1f71e9fa01bd9df7ae2b0e.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_32b91e8760467fa5eb1f71e9fa01bd9df7ae2b0e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-percent-23.1.1_ab0800aa03051bd8070b42c90167c68861b34af8.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-percent-23.1.1_ab0800aa03051bd8070b42c90167c68861b34af8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_0013bd14802184b13d099b9ed37f4ec61a08f853.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_0013bd14802184b13d099b9ed37f4ec61a08f853.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.1.1_4d02081b9a21abf12e7782792f78b10c032ba937.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.1.1_4d02081b9a21abf12e7782792f78b10c032ba937.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_532f345b70cf89a3b988b41e003add8acbe5e667.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_532f345b70cf89a3b988b41e003add8acbe5e667.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/debug_d7a97aa305cd035d1244048ff9340f1289c59f35.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/debug_d7a97aa305cd035d1244048ff9340f1289c59f35.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/multi-dex/debug/componentClasses.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/glide-3.6.1_1f0a83f4871cad3c645e13a2f6164354497f409c.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/glide-3.6.1_1f0a83f4871cad3c645e13a2f6164354497f409c.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/gson-2.4_d2fcf995c1f80907f0bde96d34d117ac2aa7417c.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/gson-2.4_d2fcf995c1f80907f0bde96d34d117ac2aa7417c.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_66891ee53eb645e363906e38f65f3e83d07809ca.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_66891ee53eb645e363906e38f65f3e83d07809ca.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_bb70529674b9fa6098f2c6ba37305065eb55680b.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_bb70529674b9fa6098f2c6ba37305065eb55680b.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/library-1.0.19_32f63d9ad88a7896d273b86c794718df509b872a.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/library-1.0.19_32f63d9ad88a7896d273b86c794718df509b872a.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/renderscript-v8_d1fa2ac50e3b4e984956b7685f9ec75ec5342aca.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/renderscript-v8_d1fa2ac50e3b4e984956b7685f9ec75ec5342aca.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_c6be98a65fdcd7ac7923fd794ebf2543ba4fe6e8.jar" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_c6be98a65fdcd7ac7923fd794ebf2543ba4fe6e8.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/AndroidManifest.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/EtaThetaTau.iml" afterPath="$PROJECT_DIR$/EtaThetaTau/EtaThetaTau.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/HotFeedAdapter.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/HotFeedAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/BaseFragment.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/BaseFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/HotFeedFragment$$ViewBinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/HotFeedFragment.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/HotFeedFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/activities/HotMainActivity$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/activities/HotMainActivity$$ViewBinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/ImageViewHolder$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/ImageViewHolder$$ViewBinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/ImageViewHolder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/ImageViewHolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/ImagesAdapter.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/ImagesAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/Link.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/Link.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/LinkItemViewHolder$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/LinkItemViewHolder$$ViewBinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/MainActivity$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/MainActivity$$ViewBinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder$$ViewBinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" />
@@ -192,20 +152,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/com/google/android/gms/wearable/R.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/com/google/android/gms/wearable/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/com/rja/etaThetaTau/R.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/generated/source/r/debug/com/rja/etaThetaTau/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/TonightDetailsActivity.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/TonightDetailsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/fragments/TonightDetailsFragment$$ViewBinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/TonightDetailsFragment.java" afterPath="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/TonightDetailsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/TonightViewHolder$$ViewBinder.java" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/classes/debug/com/rja/etaThetaTau/viewholders/TonightViewHolder$$ViewBinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build.gradle" afterPath="$PROJECT_DIR$/EtaThetaTau/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codegen/codegen.iml" afterPath="$PROJECT_DIR$/codegen/codegen.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/color.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-tvdpi-v4.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-tvdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
@@ -213,15 +164,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/fragment_tonight_layout.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/fragment_tonight_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/res/layout/fragment_tonight_layout.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/res/layout/fragment_tonight_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/list_item_image.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/list_item_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/res/layout/list_item_image.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/res/layout/list_item_image.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/EtaThetaTau/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/rjaylward.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/rjaylward.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/res/values/strings.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/drawable/toolbar_background.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/drawable/toolbar_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/res/drawable/toolbar_background.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/res/drawable/toolbar_background.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/toolbar_image.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/toolbar_image.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/res/layout/toolbar_image.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/res/layout/toolbar_image.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/res/layout/view_snacks.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/res/layout/view_snacks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/view_snacks.xml" afterPath="$PROJECT_DIR$/EtaThetaTau/build/intermediates/res/merged/debug/layout/view_snacks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Eta Theta Tau - Parse 1.8.2.iws" />
@@ -273,92 +227,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HotFeedFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/HotFeedFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fragment_tonight_layout.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/fragment_tonight_layout.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotFeedAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/HotFeedAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+            <state vertical-scroll-proportion="-11.034483">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
-                <element signature="e#2680#2681#0" expanded="true" />
-                <element signature="e#2716#2717#0" expanded="true" />
+                <element signature="e#873#913#0" expanded="true" />
+                <element signature="e#1601#1618#0" expanded="true" />
+                <element signature="e#2328#2347#0" expanded="true" />
+                <element signature="e#3055#3070#0" expanded="true" />
+                <element signature="e#4128#4146#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TonightDetailsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/TonightDetailsActivity.java">
+      <file leaf-file-name="PhotoItemViewHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EtaThetaTau/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar_image.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/toolbar_image.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -368,10 +260,52 @@
         <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/TonightDetailsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+              <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1943#1944#0" expanded="true" />
+                <element signature="e#1998#1999#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/BaseFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.8346581">
+              <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#2009#2010#0" expanded="true" />
+                <element signature="e#2053#2054#0" expanded="true" />
+                <element signature="e#2077#2078#0" expanded="true" />
+                <element signature="e#2547#2548#0" expanded="true" />
+                <element signature="e#2571#2572#0" expanded="true" />
+                <element signature="e#2684#2685#0" expanded="true" />
+                <element signature="e#2711#2712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ic_menu_24dp.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/drawable/ic_menu_24dp.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolbarActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/ToolbarActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -380,11 +314,44 @@
         <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/ImagesAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-              </folding>
+              <caret line="34" column="89" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageViewHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/ImageViewHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item_image.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/list_item_image.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.206897">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card_link_holder.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/card_link_holder.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.862069">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="43" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -3277,8 +3244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/volley/JsonObjectVolleyRequester.java" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/volley/StringObjectVolleyRequester.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/volley/AbsVolleyRequester.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/HotFeedJsonTransformer.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/HotFeedItemResponse.java" />
@@ -3289,7 +3254,6 @@
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/HotMainActivity.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/HotMainPagerAdapter.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/basic_swipe_refresh_recyclerview.xml" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/BaseFragment.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/api/ApiHelper.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/TonightViewHolder.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/res/values/colors.xml" />
@@ -3299,7 +3263,6 @@
         <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/card_link_holder.xml" />
         <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/card_tonight_holder.xml" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/LinkItemViewHolder.java" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/MapsActivity.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/res/values/style.xml" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/views/ThreeByThreeView.java" />
@@ -3310,9 +3273,7 @@
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/models/TonightViewModel.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/debug/res/values/google_maps_api.xml" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/release/res/values/google_maps_api.xml" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/list_item_image.xml" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/interfaces/OnClickAtIndexListener.java" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/ImageViewHolder.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/Snacks.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/Location.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/HotFeedItem.java" />
@@ -3321,13 +3282,19 @@
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/objects/Link.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/TonightDetailsActivity.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/HotFeedFragment.java" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/fragment_tonight_layout.xml" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/ImagesAdapter.java" />
-        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/TonightDetailsFragment.java" />
         <option value="$PROJECT_DIR$/EtaThetaTau/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/view_snacks.xml" />
         <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/toolbar_image.xml" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.java" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/res/drawable/toolbar_background.xml" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/ImagesAdapter.java" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/ImageViewHolder.java" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/fragment_tonight_layout.xml" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/res/layout/list_item_image.xml" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/TonightDetailsFragment.java" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/res/drawable/ic_menu_24dp.xml" />
+        <option value="$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/BaseFragment.java" />
       </list>
     </option>
   </component>
@@ -3360,7 +3327,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3404,15 +3371,83 @@
               <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+              <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EtaThetaTau" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EtaThetaTau" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EtaThetaTau" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EtaThetaTau" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eta Theta Tau - Parse 1.8.2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EtaThetaTau" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3818,35 +3853,35 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32724506" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6255708" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23667206" sideWeight="0.20679887" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24394184" sideWeight="0.79320115" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24394184" sideWeight="0.79320115" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3911,42 +3946,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/platforms/android-23/data/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79646015">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/TonightViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/values/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/util/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/card_photo_holder.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3954,17 +3953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/card_link_holder.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -4005,14 +3993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/values/style.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.88889">
-          <caret line="89" column="51" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/views/LoadMoreRecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4045,13 +4025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11061947">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96902657">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -4099,28 +4072,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/LinkItemViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/list_item_image.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4135,13 +4090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15486726">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/ImageViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -4207,6 +4155,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4217,32 +4168,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="69" selection-start-line="98" selection-start-column="69" selection-end-line="98" selection-end-column="69" />
-          <folding>
-            <element signature="e#2626#2663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/HotFeedFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/ImagesAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4259,27 +4189,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/HotFeedAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
-          <folding>
-            <element signature="e#2680#2681#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/TonightDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4301,23 +4210,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/TonightDetailsFragment.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28985506">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/activities/TonightDetailsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#796#809#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/fragment_tonight_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/values-v21/style.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -4327,17 +4242,158 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state vertical-scroll-proportion="-1.0344827">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/HotFeedAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/values/style.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.851851">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33227345">
+          <caret line="305" column="54" selection-start-line="305" selection-start-column="54" selection-end-line="305" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/drawable/toolbar_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/card_link_holder.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.862069">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="43" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/PhotoItemViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/fragment_tonight_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.034483">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#873#913#0" expanded="true" />
+            <element signature="e#1601#1618#0" expanded="true" />
+            <element signature="e#2328#2347#0" expanded="true" />
+            <element signature="e#3055#3070#0" expanded="true" />
+            <element signature="e#4128#4146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/layout/list_item_image.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.206897">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/adapters/ImagesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="89" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/viewholders/ImageViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/fragments/TonightDetailsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/ToolbarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/res/drawable/ic_menu_24dp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EtaThetaTau/src/com/rja/etaThetaTau/base/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8346581">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2571#2572#0" expanded="true" />
+            <element signature="e#2684#2685#0" expanded="true" />
+            <element signature="e#2711#2712#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

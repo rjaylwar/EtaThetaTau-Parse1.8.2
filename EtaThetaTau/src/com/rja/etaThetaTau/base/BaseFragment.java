@@ -1,16 +1,21 @@
 package com.rja.etaThetaTau.base;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.rja.etaThetaTau.ParseApplication;
+import com.rja.etaThetaTau.R;
 import com.rja.etaThetaTau.volley.VolleyContext;
 
+import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
@@ -20,6 +25,9 @@ public abstract class BaseFragment extends Fragment implements BaseFragActivity.
 
     protected BaseActivity mActivity;
     protected View mRoot;
+
+    @Nullable @Bind(R.id.toolbar)
+    protected Toolbar mToolbar;
 
     protected boolean mFragmentClosed;
 
@@ -43,27 +51,24 @@ public abstract class BaseFragment extends Fragment implements BaseFragActivity.
         mRoot = inflater.inflate(getLayoutResId(), container, false);
         ButterKnife.bind(this, mRoot);
 
-        if(mFragmentClosed)
-            return mRoot;
+        if(mToolbar != null) {
+            mActivity.setSupportActionBar(mToolbar);
+            mActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-//        if(!mFlags.contains(getResources().getInteger(R.integer.no_toolbar))) {
-//            mToolbar = (Toolbar) mRoot.findViewById(R.id.toolbar);
-//
-//            if(!hasFakeToolbar()) {
-//                mActivity.setSupportActionBar(mToolbar);
-//                mActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//
-//                if(isTopLevel())
-//                    mActivity.getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_drawer);
-//                else if(getHomeAsUpIndicator() > 0)
-//                    mActivity.getSupportActionBar().setHomeAsUpIndicator(getHomeAsUpIndicator());
-//            }
-//
-//            configureToolbar(mToolbar);
-//        }
+                if(isTopLevel())
+                    mActivity.getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_24dp);
+                else if(getHomeAsUpIndicator() > 0)
+                    mActivity.getSupportActionBar().setHomeAsUpIndicator(getHomeAsUpIndicator());
+
+        }
+
 
         initLayout(bundle);
         return mRoot;
+    }
+
+    private boolean isTopLevel() {
+        return false;
     }
 
     protected int getHomeAsUpIndicator() {
@@ -83,6 +88,18 @@ public abstract class BaseFragment extends Fragment implements BaseFragActivity.
 
         if(getMenuResId() > 0)
             inflater.inflate(getMenuResId(), menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case android.R.id.home :
+                //Calls this class's onBackPressedCallback, which includes the listener and postFinish stuff
+                mActivity.onBackPressed();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     protected int getMenuResId() {

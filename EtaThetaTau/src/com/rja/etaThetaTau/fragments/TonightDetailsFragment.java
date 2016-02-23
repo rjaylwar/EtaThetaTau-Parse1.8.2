@@ -3,7 +3,6 @@ package com.rja.etaThetaTau.fragments;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,8 +26,6 @@ import butterknife.Bind;
  */
 public class TonightDetailsFragment extends BaseFragment {
 
-    @Bind(R.id.toolbar)
-    Toolbar mToolbar;
     @Bind(R.id.backdrop)
     ImageView mToolbarBackdrop;
 

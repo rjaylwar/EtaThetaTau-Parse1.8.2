@@ -450,6 +450,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="incorrect_password">Incorrect Password</string>
+    <string name="location">Location</string>
+    <string name="message">Message</string>
     <string name="mr_media_route_button_content_description">Cast</string>
     <string name="mr_media_route_chooser_searching">Searching for devices\u2026</string>
     <string name="mr_media_route_chooser_title">Connect to device</string>
@@ -464,6 +466,7 @@
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="play_icon">▶</string>
+    <string name="reminders">Reminders</string>
     <string name="salty">~ Salty ~</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
@@ -471,6 +474,7 @@
     <string name="successfully_subscribed">Successfully Subscribed!</string>
     <string name="sucessfully_unsubscribed">Successfully Unsubscribed!</string>
     <string name="sweet">~ Sweet ~</string>
+    <string name="theme">Theme</string>
     <string name="title_activity_login">Eta Theta Tau</string>
     <string name="title_activity_lyrics_detail">Lyrics</string>
     <string name="title_activity_maps">Map</string>

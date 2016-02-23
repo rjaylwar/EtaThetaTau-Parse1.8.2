@@ -3,13 +3,12 @@ package com.rja.etaThetaTau.fragments;
 
 import android.view.View;
 import butterknife.ButterKnife.Finder;
-import butterknife.ButterKnife.ViewBinder;
 
-public class TonightDetailsFragment$$ViewBinder<T extends com.rja.etaThetaTau.fragments.TonightDetailsFragment> implements ViewBinder<T> {
+public class TonightDetailsFragment$$ViewBinder<T extends com.rja.etaThetaTau.fragments.TonightDetailsFragment> extends com.rja.etaThetaTau.base.BaseFragment$$ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
+    super.bind(finder, target, source);
+
     View view;
-    view = finder.findRequiredView(source, 2131493159, "field 'mToolbar'");
-    target.mToolbar = finder.castView(view, 2131493159, "field 'mToolbar'");
     view = finder.findRequiredView(source, 2131493161, "field 'mToolbarBackdrop'");
     target.mToolbarBackdrop = finder.castView(view, 2131493161, "field 'mToolbarBackdrop'");
     view = finder.findRequiredView(source, 2131493097, "field 'mThreeByTwoTextView'");
@@ -29,7 +28,8 @@ public class TonightDetailsFragment$$ViewBinder<T extends com.rja.etaThetaTau.fr
   }
 
   @Override public void unbind(T target) {
-    target.mToolbar = null;
+    super.unbind(target);
+
     target.mToolbarBackdrop = null;
     target.mThreeByTwoTextView = null;
     target.mMessageView = null;

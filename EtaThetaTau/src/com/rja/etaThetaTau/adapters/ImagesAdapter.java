@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import com.rja.etaThetaTau.R;
 import com.rja.etaThetaTau.interfaces.OnClickAtIndexListener;
+import com.rja.etaThetaTau.util.Print;
 import com.rja.etaThetaTau.viewholders.ImageViewHolder;
 
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class ImagesAdapter extends RecyclerView.Adapter implements OnClickAtInde
 
     public void load(ArrayList<String> imageUrls) {
         mUrls = imageUrls;
+        Print.log(imageUrls);
         notifyDataSetChanged();
     }
 
@@ -36,7 +38,7 @@ public class ImagesAdapter extends RecyclerView.Adapter implements OnClickAtInde
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if(holder instanceof ImageViewHolder) {
-            ((ImageViewHolder) holder).load(mUrls.get(position), this);
+            ((ImageViewHolder) holder).load(mContext, mUrls.get(position), this);
         }
     }
 
