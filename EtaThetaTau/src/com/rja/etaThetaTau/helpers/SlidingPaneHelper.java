@@ -1,5 +1,6 @@
 package com.rja.etaThetaTau.helpers;
 
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -7,15 +8,15 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
+import com.rja.etaThetaTau.LoginActivity;
 import com.rja.etaThetaTau.R;
 import com.rja.etaThetaTau.base.BaseActivity;
-import com.rja.etaThetaTau.values.Preferences;
 
 /**
  * Created by rjaylward on 2/4/16
@@ -43,9 +44,9 @@ public class SlidingPaneHelper {
     }
 
     public void loadView() {
-        Glide.with(mActivity).load(Preferences.getInstance().getImageUrl()).into(mProfileImage);
-        mEmail.setText(Preferences.getInstance().getEmail());
-        mName.setText(Preferences.getInstance().getName());
+//        Glide.with(mActivity).load(Preferences.getInstance().getImageUrl()).into(mProfileImage);
+//        mEmail.setText(Preferences.getInstance().getEmail());
+//        mName.setText(Preferences.getInstance().getName());
     }
 
     public SlidingPaneHelper(BaseActivity activity, Toolbar toolbar, NavigationView navigationView, DrawerLayout drawerLayout) {
@@ -80,19 +81,10 @@ public class SlidingPaneHelper {
 //                        if (!(mActivity instanceof LoginActivity))
 //                            mActivity.startActivity(LoginActivity.createIntent(mActivity));
 //                        return true;
-//                    case R.id.menu_item_feedback:
-//                        mDrawerLayout.closeDrawer(Gravity.LEFT);
-//                        Handler handler = new Handler();
-//                        handler.postDelayed(new Runnable() {
-//
-//                            @Override
-//                            public void run() {
-//                                //Gives the drawer time to close so screenshot is of the current screen
-//                                Instabug.getInstance().invoke();
-//                            }
-//
-//                        }, 250l);
-//                        return true;
+                    case R.id.menu_item_feedback:
+                        mDrawerLayout.closeDrawer(Gravity.LEFT);
+                        mActivity.startActivity(new Intent(mActivity, LoginActivity.class));
+                        return true;
                     default:
                         return true;
                 }

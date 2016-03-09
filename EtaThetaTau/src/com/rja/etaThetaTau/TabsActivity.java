@@ -18,8 +18,13 @@ public class TabsActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
-        getActionBar().hide();
+        try {
+            //getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
+            getActionBar().hide();
+        }
+        catch(Exception e) {
+
+        }
 
 
         setContentView(R.layout.activity_tabs);

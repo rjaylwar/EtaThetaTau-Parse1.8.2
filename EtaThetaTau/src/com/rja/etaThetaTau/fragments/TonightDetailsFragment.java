@@ -70,9 +70,7 @@ public class TonightDetailsFragment extends BaseFragment implements OnClickAtInd
     }
 
     @Override
-    protected void prepareFragment(Bundle bundle) {
-
-    }
+    protected void prepareFragment(Bundle bundle) { }
 
     @Override
     protected void initLayout(Bundle bundle) {

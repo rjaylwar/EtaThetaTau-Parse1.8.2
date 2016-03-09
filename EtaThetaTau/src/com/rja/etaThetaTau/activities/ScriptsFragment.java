@@ -34,6 +34,8 @@ public class ScriptsFragment extends BaseFragment {
 
     private static final String MIME_TYPE = "text/html; charset=utf-8";
     private static final String ENCODING = "UTF-8";
+    private static final String ERROR_HTML = "<html><body bgcolor=\"#0C4E76\"><font color=\"white\" face=\"Helvetica Neue Light\">" +
+            "<p>Error, could not load. Make sure you have a network connection.</p></body></html>";
 
     @Override
     protected int getLayoutResId() {
@@ -47,8 +49,8 @@ public class ScriptsFragment extends BaseFragment {
 
     @Override
     protected void initLayout(Bundle bundle) {
-        mWebView.getSettings().setJavaScriptEnabled(true);
-        loadWebViewWithHtml("<html><body bgcolor=\"#0C4E76\"><font color=\"white\" face=\"Helvetica Neue Light\"><p>Error, could not load. Make sure you have a network connection.</p></body></html>");
+        setUpWebView();
+        loadWebViewWithHtml(ERROR_HTML, mWebView);
 
         getScripts();
     }
@@ -59,8 +61,9 @@ public class ScriptsFragment extends BaseFragment {
 
             @Override
             public void onResponse(ScriptsResponse response) {
+
                 mScripts = response.getScripts();
-                loadWebViewWithHtml(mScripts.get(0).getHtmlScript());
+                loadWebViewWithHtml(mScripts.get(0).getHtmlScript(), mWebView);
             }
 
             @Override
@@ -75,15 +78,15 @@ public class ScriptsFragment extends BaseFragment {
         WebSettings settings = mWebView.getSettings();
         settings.setJavaScriptEnabled(true);
 
-        if (Build.VERSION.SDK_INT < 19) {
+        if(Build.VERSION.SDK_INT < 19) {
             settings.setPluginState(WebSettings.PluginState.ON);
         }
         mWebView.setWebChromeClient(new WebChromeClient());
         mWebView.setWebViewClient(new WebViewClient());
     }
 
-    private void loadWebViewWithHtml(String scriptData) {
-        mWebView.loadData(scriptData, MIME_TYPE, ENCODING);
+    private void loadWebViewWithHtml(String scriptData, WebView webView) {
+        webView.loadData(scriptData, MIME_TYPE, ENCODING);
     }
 
     @Override
@@ -106,7 +109,8 @@ public class ScriptsFragment extends BaseFragment {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        loadWebViewWithHtml(mScripts.get(item.getGroupId()).getHtmlScript());
+        loadWebViewWithHtml(mScripts.get(item.getGroupId()).getHtmlScript(), mWebView);
         return super.onOptionsItemSelected(item);
     }
+
 }

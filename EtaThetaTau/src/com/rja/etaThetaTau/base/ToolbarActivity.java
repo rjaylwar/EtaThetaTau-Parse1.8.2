@@ -1,6 +1,7 @@
 package com.rja.etaThetaTau.base;
 
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
@@ -25,7 +26,7 @@ public abstract class ToolbarActivity extends BaseActivity {
             setSupportActionBar(mToolbar);
             getSupportActionBar().setHomeButtonEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
-            mToolbar.setNavigationIcon(getResources().getDrawable(R.drawable.abc_ic_ab_back_mtrl_am_alpha));
+            mToolbar.setNavigationIcon(ContextCompat.getDrawable(this, R.drawable.abc_ic_ab_back_mtrl_am_alpha));
             mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

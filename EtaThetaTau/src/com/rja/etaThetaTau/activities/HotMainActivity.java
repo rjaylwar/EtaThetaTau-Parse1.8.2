@@ -41,8 +41,8 @@ public class HotMainActivity extends ToolbarActivity {
         super.onCreate(savedInstanceState);
         ButterKnife.bind(this);
 
-//        mSlidingPaneHelper = new SlidingPaneHelper(this, mToolbar, mNavigationView, mDrawerLayout);
-//        mSlidingPaneHelper.loadView();
+        mSlidingPaneHelper = new SlidingPaneHelper(this, mToolbar, mNavigationView, mDrawerLayout);
+        mSlidingPaneHelper.loadView();
 
         mTabLayout = (TabLayout) findViewById(R.id.tabs);
         mTabLayout.addTab(mTabLayout.newTab().setText("Feed"));

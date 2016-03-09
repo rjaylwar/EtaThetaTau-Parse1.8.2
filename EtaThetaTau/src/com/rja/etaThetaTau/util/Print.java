@@ -67,6 +67,13 @@ public class Print {
             e.printStackTrace();
     }
 
+    public static void exception(Exception e, String message) {
+        log(message);
+
+        if(Constants.IS_DEBUG_MODE)
+            e.printStackTrace();
+    }
+
     public static void analyticsEvent(Map<String, String> params) {
         if(Constants.IS_DEBUG_MODE)
             Log.d("Analytics event", params.toString());

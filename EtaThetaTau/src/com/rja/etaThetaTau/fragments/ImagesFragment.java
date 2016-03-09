@@ -1,6 +1,7 @@
 package com.rja.etaThetaTau.fragments;
 
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -67,9 +68,10 @@ public class ImagesFragment extends BaseFragment {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         mAdapter = new BigImagesAdapter(getContext());
         mRecyclerView.setAdapter(mAdapter);
+        mRecyclerView.setBackgroundColor(ContextCompat.getColor(mActivity, R.color.cardview_light_background));
 
         mAdapter.load(getArguments().getStringArrayList(IMAGES));
-        mRecyclerView.getLayoutManager().scrollToPosition(getArguments().getInt(INDEX));
+        mRecyclerView.smoothScrollToPosition(getArguments().getInt(INDEX));
 
         Print.log("images", getArguments().getInt(INDEX), getArguments().getStringArrayList(IMAGES));
     }
