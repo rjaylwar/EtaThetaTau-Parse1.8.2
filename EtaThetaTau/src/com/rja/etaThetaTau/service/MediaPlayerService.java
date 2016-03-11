@@ -42,7 +42,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
     public static final java.lang.String EXTRA_CONNECTED_CAST = "extra_connected_cast";
     public static final String MEDIA_ID_ROOT = "media_player_service_root_";
 
-    private MediaSessionCompat mMediaSession;
+    private MediaSessionCompat mSession;
     private MediaNotificationManager mMediaNotificationManager;
     private Playback mPlayback;
 //    private ArrayList<MediaSessionCompat.QueueItem> mQueueItems = new ArrayList<>();
@@ -55,10 +55,10 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
     @Override
     public void onCreate() {
         super.onCreate();
-        mMediaSession = new MediaSessionCompat(getApplicationContext(), MediaPlayerService.class.getCanonicalName());
-        mMediaSession.setFlags(MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS | MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS);
-        setSessionToken(mMediaSession.getSessionToken());
-        mMediaSession.setCallback(mCallback);
+        mSession = new MediaSessionCompat(this, MediaPlayerService.class.getCanonicalName());
+        setSessionToken(mSession.getSessionToken());
+        mSession.setFlags(MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS | MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS);
+        mSession.setCallback(mCallback);
 
         try {
             //TODO figure out a way to set the intent manually...
@@ -71,6 +71,8 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
         mPlayback.setState(PlaybackStateCompat.STATE_NONE);
         mPlayback.setCallback(this);
         mPlayback.start();
+
+        updatePlaybackState(null);
     }
 
     MediaSessionCompat.Callback mCallback = new MediaSessionCompat.Callback() {
@@ -154,7 +156,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
 
     public int onStartCommand(Intent intent, int flags, int startId) {
         //TODO figure out if these media session calls are necessary...
-        mMediaSession.setPlaybackState(new PlaybackStateCompat.Builder()
+        mSession.setPlaybackState(new PlaybackStateCompat.Builder()
                 .setState(PlaybackStateCompat.STATE_PAUSED, 0, 1)
                 .setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE)
                 .build());
@@ -175,7 +177,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
             }
         } else {
             // Try to handle the intent as a media button event wrapped by MediaButtonReceiver
-            MediaButtonReceiver.handleIntent(mMediaSession, intent);
+            MediaButtonReceiver.handleIntent(mSession, intent);
         }
 
         // Reset the delay handler to enqueue a message to stop the service if
@@ -203,7 +205,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
     }
 
     public void prepareMedia() {
-        mMediaSession.setPlaybackState(new PlaybackStateCompat.Builder()
+        mSession.setPlaybackState(new PlaybackStateCompat.Builder()
                 .setState(PlaybackStateCompat.STATE_BUFFERING, 0, 0)
                 .setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE)
                 .build());
@@ -212,7 +214,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
     public void playMedia() {
         Print.log("handlePlayRequest: mState=" + mPlayback.getState());
 
-//        mMediaSession.setPlaybackState(new PlaybackStateCompat.Builder()
+//        mSession.setPlaybackState(new PlaybackStateCompat.Builder()
 //                .setState(PlaybackStateCompat.STATE_PLAYING, mPlayback.getCurrentStreamPosition(), 1)
 //                .setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE)
 //                .build());
@@ -227,8 +229,8 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
             mServiceStarted = true;
         }
 
-        if (!mMediaSession.isActive()) {
-            mMediaSession.setActive(true);
+        if (!mSession.isActive()) {
+            mSession.setActive(true);
         }
 
         if (isIndexPlayable(mCurrentIndexOnQueue, getAudioQueue())) {
@@ -262,7 +264,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
                             .putString(MediaMetadataCompat.METADATA_KEY_ALBUM_ART_URI, item.getLargeImageUrl());
             }
 
-            mMediaSession.setMetadata(metadataBuilder.build());
+            mSession.setMetadata(metadataBuilder.build());
         }
 
     }
@@ -271,7 +273,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
         if(mPlayback != null && mPlayback.isPlaying()) {
             mPlayback.pause();
 
-//            mMediaSession.setPlaybackState(new PlaybackStateCompat.Builder()
+//            mSession.setPlaybackState(new PlaybackStateCompat.Builder()
 //                    .setState(PlaybackStateCompat.STATE_PAUSED, mPlayback.getCurrentStreamPosition(), 0)
 //                    .setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE)
 //                    .build());
@@ -330,7 +332,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
     private void stopMedia(String withError) {
         Print.log( "handleStopRequest: mState=" + mPlayback.getState() + " error=", withError);
         mPlayback.stop(true);
-        mMediaSession.setActive(false);
+        mSession.setActive(false);
 
         mDelayedStopHandler.removeCallbacksAndMessages(null);
         mDelayedStopHandler.sendEmptyMessageDelayed(0, STOP_DELAY);
@@ -373,6 +375,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
             position = mPlayback.getCurrentStreamPosition();
         }
 
+        //noinspection ResourceType
         PlaybackStateCompat.Builder stateBuilder = new PlaybackStateCompat.Builder()
                 .setActions(getAvailableActions());
 
@@ -386,6 +389,8 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
             stateBuilder.setErrorMessage(error);
             state = PlaybackStateCompat.STATE_ERROR;
         }
+
+        //noinspection ResourceType
         stateBuilder.setState(state, position, 1.0f, SystemClock.elapsedRealtime());
 
         // Set the activeQueueItemId if the current index is valid.
@@ -394,7 +399,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
             stateBuilder.setActiveQueueItemId(item.getQueueId());
         }
 
-        mMediaSession.setPlaybackState(stateBuilder.build());
+        mSession.setPlaybackState(stateBuilder.build());
 
         if(state == PlaybackStateCompat.STATE_PLAYING || state == PlaybackStateCompat.STATE_PAUSED) {
             if(mMediaNotificationManager != null)
@@ -448,7 +453,7 @@ public class MediaPlayerService extends MediaBrowserServiceCompat implements Pla
         mDelayedStopHandler.removeCallbacksAndMessages(null);
         // Always release the MediaSession to clean up resources
         // and notify associated MediaController(s).
-        mMediaSession.release();
+        mSession.release();
     }
 
     private ArrayList<MediaSessionCompat.QueueItem> getAudioQueue() {

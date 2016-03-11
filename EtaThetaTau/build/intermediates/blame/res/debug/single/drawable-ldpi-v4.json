@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_fast_rewind_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_fast_rewind_24dp.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_fast_forward_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_fast_forward_24dp.png"
+    },
+    {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_menu_share_material.png",
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_menu_share_material.png"
     },
@@ -8,8 +16,28 @@
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_menu_overflow_material.png"
     },
     {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_pause_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_pause_24dp.png"
+    },
+    {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_voice_search_api_material.png",
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_voice_search_api_material.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_play_arrow_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_search_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_search_24dp.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_skip_previous_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_skip_previous_24dp.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_close_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_close_24dp.png"
     },
     {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_menu_paste_material.png",
@@ -26,6 +54,10 @@
     {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_go_search_api_material.png",
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_go_search_api_material.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_stop_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_stop_24dp.png"
     },
     {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_btn_checkbox_unchecked_mtrl.png",
@@ -50,6 +82,10 @@
     {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_menu_24dp.png",
         "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_menu_24dp.png"
+    },
+    {
+        "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_skip_next_24dp.png",
+        "source": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/generated/res/pngs/debug/drawable-ldpi/ic_skip_next_24dp.png"
     },
     {
         "merged": "/Users/rjaylward/Google Drive/Android Studio/Eta Theta Tau - Parse 1.8.2/EtaThetaTau/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_btn_radio_on_mtrl.png",

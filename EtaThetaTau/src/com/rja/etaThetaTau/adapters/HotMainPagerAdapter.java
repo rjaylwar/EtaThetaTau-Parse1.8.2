@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.rja.etaThetaTau.activities.ScriptsFragment;
+import com.rja.etaThetaTau.fragments.AudioPlayerFragment;
 import com.rja.etaThetaTau.fragments.HotFeedFragment;
 
 import java.util.ArrayList;
@@ -31,7 +32,7 @@ public class HotMainPagerAdapter extends FragmentPagerAdapter {
                 fragment = new HotFeedFragment();
                 break;
             case 1:
-                fragment = new HotFeedFragment();
+                fragment = new AudioPlayerFragment();
                 break;
             case 2:
                 fragment = new ScriptsFragment();

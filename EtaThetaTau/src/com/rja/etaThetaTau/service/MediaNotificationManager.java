@@ -68,7 +68,7 @@ public class MediaNotificationManager extends BroadcastReceiver {
 //        mNotificationColor = ResourceHelper.getThemeColor(mService, R.attr.colorPrimary,
 //                Color.DKGRAY);
 
-        mNotificationColor = ContextCompat.getColor(mService.getApplicationContext(), R.attr.colorPrimary);
+        mNotificationColor = ContextCompat.getColor(mService.getApplicationContext(), R.color.hot_dark_background_blue);
 
         mNotificationManager = NotificationManagerCompat.from(service);
 

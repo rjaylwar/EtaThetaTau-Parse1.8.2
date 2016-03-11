@@ -25,19 +25,26 @@ public class MediaControllerManager {
     MediaButtonSet mMediaButtonSet;
 
     OnQueueChangedListener mQueueChangedListener;
+    OnMediaControllerConnected mMediaControllerListener;
 
-    public MediaControllerManager(AppCompatActivity activity, MediaButtonSet mediaButtonSet, OnQueueChangedListener queueChangedListener) {
-        mMediaButtonSet = mediaButtonSet;
+    public MediaControllerManager(AppCompatActivity activity, MediaButtonSet mediaButtonSet, OnQueueChangedListener queueChangedListener, OnMediaControllerConnected mediaControllerListener) {
         mQueueChangedListener = queueChangedListener;
-
-        mMediaBrowser = new MediaBrowserCompat(activity,
-                new ComponentName(activity, MediaPlayerService.class),
-                mConnectionCallback, null);
+        mMediaButtonSet = mediaButtonSet;
+        mMediaControllerListener = mediaControllerListener;
+        mMediaBrowser = new MediaBrowserCompat(activity, new ComponentName(activity, MediaPlayerService.class), mConnectionCallback, null);
+        mActivity = activity;
     }
 
     public void onItemSelected(MediaSessionCompat.QueueItem item) {
-        mTransportControls.skipToQueueItem(item.getQueueId());
+        onItemSelected(item.getQueueId());
 //        mTransportControls.playFromUri();
+    }
+
+    public void onItemSelected(long id) {
+        if(mTransportControls != null) {
+            mTransportControls.skipToQueueItem(id);
+//        mTransportControls.playFromUri();
+        }
     }
 
     @SuppressWarnings("FieldCanBeLocal")
@@ -53,15 +60,21 @@ public class MediaControllerManager {
 
                     try {
                         mMediaController = new MediaControllerCompat(mActivity, mMediaBrowser.getSessionToken());
+                        mActivity.setSupportMediaController(mMediaController);
+                        if(mMediaControllerListener != null)
+                            mMediaControllerListener.onMediaControllerConnected(mMediaController);
                     } catch(RemoteException e) {
                         e.printStackTrace();
+                        //TODO handle this exception
                     }
 
                     mTransportControls = mMediaController.getTransportControls();
                     mMediaController.registerCallback(mSessionCallback);
 
-                    mActivity.setSupportMediaController(mMediaController);
                     mPlaybackState = mMediaController.getPlaybackState();
+
+                    mMediaButtonSet.updateControls(mTransportControls);
+                    mMediaButtonSet.updateState(mPlaybackState);
 
                     List<MediaSessionCompat.QueueItem> queue = mMediaController.getQueue();
 
@@ -74,6 +87,8 @@ public class MediaControllerManager {
                 @Override
                 public void onConnectionFailed() {
                     Print.log("onConnectionFailed");
+
+                    mMediaControllerListener.onMediaControllerDisconected();
                 }
 
                 @Override
@@ -128,4 +143,23 @@ public class MediaControllerManager {
 //        mQueueAdapter.addAll(queue);
 //        mQueueAdapter.notifyDataSetChanged();
 //    }
+
+    public interface OnMediaControllerConnected {
+        void onMediaControllerConnected(MediaControllerCompat mediaControllerCompat);
+        void onMediaControllerDisconected();
+    }
+
+    public void connect() {
+        Print.log("Media browser connect is being called");
+        mMediaBrowser.connect();
+    }
+
+    public void disconnect() {
+        Print.log("Media browser disconnect is being called");
+        mMediaBrowser.disconnect();
+    }
+
+    public MediaBrowserCompat getMediaBrowser() {
+        return mMediaBrowser;
+    }
 }

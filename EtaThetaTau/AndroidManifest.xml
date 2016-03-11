@@ -37,7 +37,6 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:name=".ParseApplication"
@@ -141,10 +140,10 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".service.MediaPlayerService" android:exported="false">
+        <service android:name=".service.MediaPlayerService" android:exported="true">
 
             <intent-filter>
-                <action android:name="android.intent.action.MEDIA_BUTTON" />
+               <action android:name="android.media.browse.MediaBrowserService"/>
             </intent-filter>
         </service>
         <!--

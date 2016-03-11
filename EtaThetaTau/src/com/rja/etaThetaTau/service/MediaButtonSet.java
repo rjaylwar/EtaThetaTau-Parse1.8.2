@@ -214,9 +214,11 @@ public class MediaButtonSet {
         private MediaControllerCompat.TransportControls mTransportControls;
         private PlaybackStateCompat mPlaybackState;
 
-        public Builder(MediaControllerCompat.TransportControls transportControls, PlaybackStateCompat playbackState) {
-            mTransportControls = transportControls;
-            mPlaybackState = playbackState;
+        public Builder(MediaControllerCompat mediaControllerCompat) {
+            if(mediaControllerCompat != null) {
+                mTransportControls = mediaControllerCompat.getTransportControls();
+                mPlaybackState = mediaControllerCompat.getPlaybackState();
+            }
         }
 
 
@@ -224,44 +226,54 @@ public class MediaButtonSet {
             return new MediaButtonSet(mPlayPause, mPlayResId, mPauseResId, mNext, mPrev, mFF, mRW, mStop, mTransportControls, mPlaybackState);
         }
 
-        public void setPlayPause(View playPause) {
+        public Builder setPlayPause(View playPause) {
             mPlayPause = playPause;
+            return this;
         }
 
-        public void setNext(View next) {
+        public Builder setNext(View next) {
             mNext = next;
+            return this;
         }
 
-        public void setPrev(View prev) {
+        public Builder setPrev(View prev) {
             mPrev = prev;
+            return this;
         }
 
-        public void setFF(View FF) {
+        public Builder setFF(View FF) {
             mFF = FF;
+            return this;
         }
 
-        public void setRW(View RW) {
+        public Builder setRW(View RW) {
             mRW = RW;
+            return this;
         }
 
-        public void setStop(View stop) {
+        public Builder setStop(View stop) {
             mStop = stop;
+            return this;
         }
 
-//        public void setTransportControls(MediaControllerCompat.TransportControls transportControls) {
+//        public Builder setTransportControls(MediaControllerCompat.TransportControls transportControls) {
 //            mTransportControls = transportControls;
+//            return this;
 //        }
 
-//        public void setPlaybackState(PlaybackStateCompat playbackState) {
+//        public Builder setPlaybackState(PlaybackStateCompat playbackState) {
 //            mPlaybackState = playbackState;
+//            return this;
 //        }
 
-        public void setPauseResId(int pauseResId) {
+        public Builder setPauseResId(int pauseResId) {
             mPauseResId = pauseResId;
+            return this;
         }
 
-        public void setPlayResId(int playResId) {
+        public Builder setPlayResId(int playResId) {
             mPlayResId = playResId;
+            return this;
         }
 
     }

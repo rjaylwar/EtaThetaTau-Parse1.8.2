@@ -38,19 +38,24 @@ public class AudioQueue {
         return mQueueItems;
     }
 
-    public void add(MediaItem mediaItem) {
+    public long add(MediaItem mediaItem) {
         mLastId++;
 
         MediaDescriptionCompat.Builder builder = new MediaDescriptionCompat.Builder();
         builder.setMediaId(mediaItem.getUrl())
                 .setTitle(mediaItem.getTitle())
                 .setSubtitle(mediaItem.getSubtitle())
-                .setDescription(mediaItem.getArtist())
-                .setIconUri(Uri.parse(mediaItem.getSmallImageUrl()))
-                .setMediaUri(Uri.parse(mediaItem.getUrl()));
+                .setDescription(mediaItem.getArtist());
+
+        if(mediaItem.getSmallImageUrl() != null)
+            builder.setIconUri(Uri.parse(mediaItem.getSmallImageUrl()));
+        if(mediaItem.getUrl() != null)
+            builder.setMediaUri(Uri.parse(mediaItem.getUrl()));
 
         MediaSessionCompat.QueueItem queueItem = new MediaSessionCompat.QueueItem(builder.build(), mLastId);
         mQueueItems.add(queueItem);
+
+        return queueItem.getQueueId();
     }
 
     public void add(ArrayList<MediaItem> mediaItems) {
@@ -63,4 +68,6 @@ public class AudioQueue {
         mQueueItems.clear();
         mLastId = FIRST_ID;
     }
+
+
 }

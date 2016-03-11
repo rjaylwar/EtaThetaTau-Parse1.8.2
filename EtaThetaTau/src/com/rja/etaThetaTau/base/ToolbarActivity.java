@@ -26,7 +26,7 @@ public abstract class ToolbarActivity extends BaseActivity {
             setSupportActionBar(mToolbar);
             getSupportActionBar().setHomeButtonEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
-            mToolbar.setNavigationIcon(ContextCompat.getDrawable(this, R.drawable.abc_ic_ab_back_mtrl_am_alpha));
+            mToolbar.setNavigationIcon(ContextCompat.getDrawable(this, R.drawable.ic_search_24dp));
             mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

@@ -36,5 +36,6 @@
     <string name="play">play</string>
     <string name="casting_to_device">casting to device</string>
     <string name="stop_casting">stop casting</string>
+    <string name="search_for_artist">Search for artists...</string>
 
 </resources>

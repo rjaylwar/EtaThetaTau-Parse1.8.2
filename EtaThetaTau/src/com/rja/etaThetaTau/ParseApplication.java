@@ -1,6 +1,6 @@
 package com.rja.etaThetaTau;
 
-import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 import android.util.Log;
 
 import com.parse.Parse;
@@ -8,9 +8,10 @@ import com.parse.ParseException;
 import com.parse.ParseInstallation;
 import com.parse.ParsePush;
 import com.parse.SaveCallback;
+import com.rja.etaThetaTau.service.AudioQueue;
 import com.rja.etaThetaTau.values.Preferences;
 
-public class ParseApplication extends Application {
+public class ParseApplication extends MultiDexApplication {
 
   @Override
   public void onCreate() {
@@ -26,6 +27,7 @@ public class ParseApplication extends Application {
 
           @Override
           public void done(ParseException e) {
+
               if(e == null) {
                   Log.d("com.parse.push", "successfully subscribed to the broadcast channel.");
               } else {
@@ -46,6 +48,7 @@ public class ParseApplication extends Application {
       });
 
       Preferences.initialize(getApplicationContext());
+      AudioQueue.initialize();
 
   }
 }
